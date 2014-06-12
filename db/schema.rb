@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140611232356) do
+ActiveRecord::Schema.define(version: 20140612103525) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20140611232356) do
     t.datetime "updated_at"
     t.string   "home_team"
     t.string   "away_team"
+    t.string   "result",     default: "Por jugar"
   end
 
   create_table "performance_records", force: true do |t|
@@ -37,6 +38,7 @@ ActiveRecord::Schema.define(version: 20140611232356) do
     t.integer  "goals",        default: 0
     t.integer  "yellow_cards", default: 0
     t.integer  "red_cards",    default: 0
+    t.integer  "rating_count", default: 0
   end
 
   add_index "performance_records", ["game_id"], name: "index_performance_records_on_game_id", using: :btree

@@ -1,0 +1,18 @@
+<section class="panel panel-primary">
+  <section class="panel-heading">
+    <h3 class="panel-title">Administration</h3>
+  </section>
+  <section class="panel-body">
+    <ul class="list-inline">
+      <li>
+        <a href="<%= edit_team_player_path(@team, @player) %>">
+          <i class="fa fa-edit"></i>
+          Edit
+        </a>
+      </li>
+      <li>
+        <%= link_to content_tag(:i, " ", class: "fa fa-trash-o") << "Delete", team_player_path(@team, @player), method: :delete, data: { confirm: 'Are you sure' } %>
+      </li>
+    </ul>
+  </section>
+</section>

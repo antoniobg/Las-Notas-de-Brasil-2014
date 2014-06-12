@@ -1,7 +1,9 @@
 class PlayersController < ApplicationController
   before_action :user_is_admin,   except: [:index, :show]
   before_action :set_player,      except: [:index, :new, :create]
-  before_action :set_team        
+  before_action :set_team 
+  before_action :set_positions,   only:   [:new, :edit]
+
   def index
     Player.all
   end
@@ -26,9 +28,10 @@ class PlayersController < ApplicationController
   end
 
   def update
+    @positions = 
     if @player.update_attributes(player_params)
       flash[:success] = "Player updated successfully"
-      redirect_to @player
+      redirect_to team_player_path(@team,@player)
     else
       render 'edit'
     end
@@ -42,6 +45,10 @@ class PlayersController < ApplicationController
 
 
   private
+
+    def set_positions
+      @positions = Position.all.collect { |p| [p.code, p.id ] }
+    end
 
     def set_team
       @team = Team.find(params[:team_id])
