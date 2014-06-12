@@ -5,4 +5,10 @@ class SessionsController < ApplicationController
     flash[:success] = "Signed in!"
     redirect_to root_path
   end
+
+  def destroy
+    session[:user_id] = nil
+    flash[:success] = "Signed out!"
+    redirect_to root_path
+  end
 end

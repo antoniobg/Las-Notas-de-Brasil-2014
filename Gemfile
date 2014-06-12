@@ -8,6 +8,7 @@ gem 'figaro'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 gem 'twitter-bootstrap-rails-cdn', '~> 1.1.3'
+gem 'select2-rails', '~> 3.5.4'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

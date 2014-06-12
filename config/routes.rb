@@ -3,8 +3,15 @@ Brazil2014::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
   root 'teams#index'
 
-  resources :teams
+  # Authentication
   get 'auth/twitter/callback', to: 'sessions#create'
+  get 'auth/failure', to: redirect('/')  
+  get 'signout', to: 'sessions#destroy', as: 'signout'
+  get 'auth/twitter', as: 'signin'
+  
+  resources :teams do
+    resources :players
+  end
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'

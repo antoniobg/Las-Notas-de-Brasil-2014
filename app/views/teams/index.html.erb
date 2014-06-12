@@ -1,5 +1,11 @@
-<ul>
-  <% @teams.each do |team| %>
-  <li><%= team.name %>, <%= team.iso_2 %></li>
-  <% end %>
-</ul>
+<section class="teams">
+  <section class="page-header">
+    <h1>Selecciones</h1>
+  </section>
+  <%= render 'index_admin_menu' if signed_in_as_admin? %>
+  <ul>
+    <% @teams.each do |team| %>
+    <li><%= link_to team, team_path(team) %> - <%= team.iso_2.upcase %></li>
+    <% end %>
+  </ul>
+</section>

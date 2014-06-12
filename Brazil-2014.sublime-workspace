@@ -391,7 +391,137 @@
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1176,
+				"buffer_size": 1250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/initializers/omniauth.rb",
+			"settings":
+			{
+				"buffer_size": 166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/development.rb",
+			"settings":
+			{
+				"buffer_size": 1248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 91 files for \"Rails.application.config.middleware\"\n\n/Users/tonimaister/Documents/Rails/Projects/Brazil2014/config/initializers/omniauth.rb:\n    1: Rails.application.config.middleware.use OmniAuth::Builder do\n    2    provider :twitter, ENV['TWITTER_KEY'], ENV['TWITTER_SECRET'],\n    3      {\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 321,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "config/application.yml",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1019,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/team.rb",
+			"settings":
+			{
+				"buffer_size": 36,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/teams_controller.rb",
+			"settings":
+			{
+				"buffer_size": 90,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/teams/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 100,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1701,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/sessions_controller.rb",
+			"settings":
+			{
+				"buffer_size": 217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20140610223550_add_remember_token_to_user.rb",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20140610224038_add_index_to_user_uid.rb",
+			"settings":
+			{
+				"buffer_size": 100,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/initializers/inflections.rb",
+			"settings":
+			{
+				"buffer_size": 647,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 364,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/sessions_helper.rb",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20140610221949_create_users.rb",
+			"settings":
+			{
+				"buffer_size": 218,
 				"line_ending": "Unix"
 			}
 		}
@@ -575,6 +705,18 @@
 	},
 	"file_history":
 	[
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/app/models/user.rb",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/db/migrate/20140610212520_create_teams.rb",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/config.ru",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/config/initializers/wrap_parameters.rb",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/test/controllers/teams_controller_test.rb",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/config/initializers/session_store.rb",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/db/seeds.rb",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/db/schema.rb",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/config/initializers/pusher.rb",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/test/fixtures/teams.yml",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/config/application.yml",
+		"/Users/tonimaister/Documents/Rails/Projects/Brazil2014/config/database.yml",
 		"/Users/tonimaister/Documents/apache/JSJ/wp-content/themes/trego/inc/shortcodes/social_link.php",
 		"/Users/tonimaister/Documents/apache/demo/wp-content/themes/trego/functions.php",
 		"/Users/tonimaister/Desktop/modificacion_backup.php",
@@ -690,19 +832,7 @@
 		"/Users/tonimaister/Documents/Rails/Projects/petisuite/public/img/video-play.svg",
 		"/Users/tonimaister/Documents/Rails/Projects/petisuite/config/application.yml",
 		"/Users/tonimaister/Documents/Rails/Projects/petisuite/config/sidekiq.yml",
-		"/Users/tonimaister/Desktop/Tuenti Challenge/00_sample.rb",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/Gemfile",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/db/migrate/20131106114614_add_activated_to_users.rb",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/app/models/breeding_ad.rb",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/app/controllers/breeding_ads_controller.rb",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/app/views/static_pages/_search.html.erb",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/Gemfile.lock",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/app/views/static_pages/search_results.js.erb",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/app/views/animals/_show_certifications_modal.html.erb",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/db/migrate/20131126095847_add_user_id_to_animals.rb",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/app/views/ratings/_stars.html.erb",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/db/schema.rb",
-		"/Users/tonimaister/Documents/Rails/Projects/petisuite/.git/MERGE_MSG"
+		"/Users/tonimaister/Desktop/Tuenti Challenge/00_sample.rb"
 	],
 	"find":
 	{
@@ -713,6 +843,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/tonimaister/Documents/Rails/Projects/Brazil2014",
 			"/Users/tonimaister/Documents/Rails/Projects/petisuite",
 			"/",
 			""
@@ -723,6 +854,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Rails.application.config.middleware",
+			"petisuite",
+			"  adapter: sqlite3\n",
 			"social-links",
 			"social-button",
 			" > ",
@@ -847,10 +981,7 @@
 			"server",
 			"footer",
 			"footer: ",
-			"footer",
-			"about_us",
-			"sidekiq:start",
-			"ssl"
+			"footer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -959,16 +1090,206 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 15,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "Gemfile",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1176,
+						"buffer_size": 1250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/initializers/omniauth.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								121
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/environments/development.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1164,
+								1164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 41.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 321,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										157,
+										192
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/application.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								896,
+								896
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/models/team.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36,
 						"regions":
 						{
 						},
@@ -987,7 +1308,291 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/controllers/teams_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/teams/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/controllers/sessions_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "db/migrate/20140610223550_add_remember_token_to_user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "db/migrate/20140610224038_add_index_to_user_uid.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "config/initializers/inflections.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/models/user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/helpers/sessions_helper.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "db/migrate/20140610221949_create_users.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -1044,6 +1649,62 @@
 		"selected_items":
 		[
 			[
+				"sessih",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"userrb",
+				"app/models/user.rb"
+			],
+			[
+				"addin",
+				"db/migrate/20140610224038_add_index_to_user_uid.rb"
+			],
+			[
+				"usrr",
+				"app/models/user.rb"
+			],
+			[
+				"sesscn",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"add_rem",
+				"db/migrate/20140610223550_add_remember_token_to_user.rb"
+			],
+			[
+				"sess",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"creat",
+				"db/migrate/20140610221949_create_users.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"teamscn",
+				"app/controllers/teams_controller.rb"
+			],
+			[
+				"teamr",
+				"app/models/team.rb"
+			],
+			[
+				"ap",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"datab",
+				"config/database.yml"
+			],
+			[
 				"header",
 				"wp-content/themes/trego/header.php"
 			],
@@ -1090,10 +1751,6 @@
 			[
 				"idea",
 				"app/models/idea.rb"
-			],
-			[
-				"route",
-				"config/routes.rb"
 			],
 			[
 				"projcn",
@@ -1304,10 +1961,6 @@
 				"app/workers/contact_email_job.rb"
 			],
 			[
-				"userrb",
-				"app/models/user.rb"
-			],
-			[
 				"usernav",
 				"app/views/layouts/_user_navbar.html.erb"
 			],
@@ -1506,54 +2159,6 @@
 			[
 				"blocn",
 				"app/controllers/blogs_controller.rb"
-			],
-			[
-				"socialb",
-				"app/views/posts/_social_buttons.html.erb"
-			],
-			[
-				"gplus",
-				"app/views/shared/_gplus_share_button.html.erb"
-			],
-			[
-				"facsh",
-				"app/views/shared/_facebook_share_button.html.erb"
-			],
-			[
-				"twittsha",
-				"app/views/shared/_twitter_share_button.html.erb"
-			],
-			[
-				"userhe",
-				"app/helpers/users_helper.rb"
-			],
-			[
-				"_rati",
-				"app/views/ratings/_rating.html.erb"
-			],
-			[
-				"custocss",
-				"app/assets/stylesheets/custom.css.scss"
-			],
-			[
-				"postfi",
-				"app/views/posts/_fields.html.erb"
-			],
-			[
-				"add_",
-				"db/migrate/20131028122741_add_username_to_users.rb"
-			],
-			[
-				"addprev",
-				"db/migrate/20140425081727_add_preview_to_posts.rb"
-			],
-			[
-				"bloges",
-				"config/locales/blog.es.yml"
-			],
-			[
-				"convindex",
-				"app/views/conversations/index.html.erb"
 			]
 		],
 		"width": 0.0

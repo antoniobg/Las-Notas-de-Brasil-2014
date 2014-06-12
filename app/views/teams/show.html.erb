@@ -1,0 +1,73 @@
+<section class="team">
+  <section class="page-header">
+    <h1><%= @team %> <small><%= @team.iso_2.upcase %></small></h1>
+  </section>
+
+  <%= render 'show_admin_menu' if signed_in_as_admin? %>
+  <nav>
+    <ol class="breadcrumb">
+      <li><a href="<%= teams_path %>">Selecciones</a></li>
+      <li class="active"><%= @team %></li>
+    </ol>
+  </nav>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Rol</th>
+        <th>Nombre</th>
+        <th>Nota</th>
+        <th>Votos</th>
+        <th>Partidos</th>
+        <th>Minutos</th>
+        <th>Goles</th>
+        <th>Amarillas</th>
+        <th>Rojas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% rating_sum = 0
+         goals = 0
+         games_played = 0
+         yellow_cards = 0
+         red_cards = 0
+         num_players = 0
+         minutes = 0
+       %>
+      <% @team.players.each do |player| %>
+      <tr class="<%= class_for_player(player) %>">
+        <% rating_sum += player.rating_avg 
+           goals += player.goals
+           games_played = [games_played, player.games_played].max
+           minutes += player.minutes
+           yellow_cards += player.yellow_cards
+           red_cards += player.red_cards
+           num_players += 1 unless player.minutes.zero?
+        %>
+        <td><%= player.number %></td>
+        <td><%= player.position %></td>
+        <td><%= player.name %></td>
+        <td><%= player.rating_avg %></td>
+        <td><%= player.rating_count %></td>
+        <td><%= player.games_played %></td>
+        <td><%= player.minutes %></td>
+        <td><%= player.goals %></td>
+        <td><%= player.yellow_cards %></td>
+        <td><%= player.red_cards %></td>
+      </tr>
+      <% end %>
+      <tr>
+        <td><i class="fa fa-users"></i></td>
+        <td>-</td>
+        <td>Equipo</td>
+        <td><%= num_players.zero? ? 0 : (rating_sum / num_players).round(2) %></td>
+        <td>-</td>
+        <td><%= games_played %></td>
+        <td><%= minutes %></td>
+        <td><%= goals %></td>
+        <td><%= yellow_cards %></td>
+        <td><%= red_cards %></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
