@@ -1,0 +1,41 @@
+<%= render 'shared/error_messages', object: f.object %>
+
+<div class="form-group">
+  <%= f.label :player_id, 'Player *' %>
+  <%= f.select :player_id, @players, {include_blank: "Select a player"}, { class: "form-control" } %>
+</div>
+
+<div class="form-group">
+  <%= f.label :minutes, 'Minutes *' %>
+  <%= f.number_field :minutes, class: "form-control", min: "0", max: "120" %>
+</div>
+
+<div class="form-group">
+  <%= f.label :goals, 'Goals' %>
+  <%= f.number_field :goals, class: "form-control", min: "0", max: "10" %>
+</div>
+
+<div class="form-group">
+  <%= f.label :yellow_cards, 'Yellow Cards' %>
+  <%= f.number_field :yellow_cards, class: "form-control", min: "0", max: "2" %>
+</div>
+
+<div class="form-group">
+  <%= f.label :red_cards, 'Red Cards' %>
+  <%= f.number_field :red_cards, class: "form-control", min: "0", max: "1" %>
+</div>
+
+<div class="form-group">
+  <label>Options</label>
+  <label for="performance_record_starting" class="checkbox-inline">
+    <%= f.check_box :starting %>
+    Starting
+  </label>
+  <label for="performance_record_as_home_player" class="checkbox-inline">
+    <%= f.check_box :as_home_player %>
+    Played in Home Team
+  </label>
+</div>
+
+
+<%= f.submit 'Save', class: 'btn btn-default' %>

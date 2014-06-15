@@ -1,0 +1,40 @@
+<%= render 'shared/error_messages', object: f.object %>
+<div class="form-group">
+  <%= f.label :date, 'Date *' %>
+  <%= f.datetime_select :date, class: "form-control" %>
+</div>
+
+<div class="form-group">
+  <%= f.label :home_team_id, 'Home Team *' %>
+  <%= f.select :home_team_id, @teams, {include_blank: "Select a team"}, { class: "form-control" } %>
+</div>
+
+<div class="form-group">
+  <%= f.label :away_team_id, 'Away Team *' %>
+  <%= f.select :away_team_id, @teams, {include_blank: "Select a team"}, { class: "form-control" } %>
+</div>
+
+<div class="form-group">
+  <%= f.label :round, 'Round *' %>
+  <%= f.select :round, @rounds, { include_blank: "Select a round"}, { class: "form-control" } %>
+</div>
+
+<div class="form-group">
+  <%= f.label :result, 'Result' %>
+  <%= f.text_field :result, class: "form-control", placeholder: 'Enter the result' %>
+</div>
+
+<div class="form-group">
+  <label>Options</label>
+  <label for="game_published" class="checkbox-inline">
+    <%= f.check_box :published %>
+    Published
+  </label>
+  <label for="game_finished" class="checkbox-inline">
+    <%= f.check_box :finished %>
+    Finished
+  </label>
+</div>
+
+
+<%= f.submit 'Save', class: 'btn btn-default' %>

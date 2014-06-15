@@ -1,0 +1,13 @@
+<% if !signed_in? or (rating = Rating.where(performance_record_id: record.id, user_id: current_user.id).first).nil? %>
+  <%= form_tag(game_performance_record_ratings_path(game, record), remote: true, class: 'form-inline', role: 'form' ) do %>
+  <div class="input-group">
+    <input class="form-control input-sm" id="rating_rating" max="10" min="0" name="rating[rating]" type="number" placeholder="Nota">
+    <span class="input-group-btn">
+      <%= submit_tag('Votar', class: 'btn btn-default btn-sm') if signed_in? %>
+      <%= link_to('Votar', root_path, class: 'btn btn-default btn-sm') unless signed_in? %>
+    </span>
+  </div>
+  <% end %>
+<% else %>
+  <%= render 'ratings/rating', rating: rating %>
+<% end %>

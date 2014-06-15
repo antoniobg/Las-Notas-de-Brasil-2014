@@ -1,11 +1,48 @@
-<section class="teams">
-  <section class="page-header">
-    <h1>Selecciones</h1>
-  </section>
+<section id="teams">
+  <header class="page-header">
+    <h1>Selecciones <small class="hidden-xs">Todas</small></h1>
+  </header>
   <%= render 'index_admin_menu' if signed_in_as_admin? %>
-  <ul>
-    <% @teams.each do |team| %>
-    <li><%= link_to team, team_path(team) %> - <%= team.iso_2.upcase %></li>
-    <% end %>
-  </ul>
+  <nav>
+    <ol class="breadcrumb">
+      <li class="active">Selecciones</a></li>
+    </ol>
+  </nav>
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th><i class="fa fa-flag"></i></th>
+          <th>Nombre</th>
+          <th>Nota</th>
+          <th>Partidos</th>
+          <th>Goles</th>
+          <th>Amarillas</th>
+          <th>Rojas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @teams.each do |team| %>
+        <tr>
+          <td><i class="fa fa-flag"></i></td>
+          <td><%= link_to team, team_path(team) %></td>
+          <td><%= team.rating_avg %></td>
+          <td><%= team.games_played %></td>
+          <td><%= team.goals %></td>
+          <td><%= team.yellow_cards %></td>
+          <td><%= team.red_cards %></td>
+        </tr>
+        <% end %>
+        <tr class="success">
+          <td><i class="fa fa-users"></i></td>
+          <td>Total</td>
+          <td><%= total_rating_avg %></td>
+          <td><%= total_games %></td>
+          <td><%= total_goals %></td>
+          <td><%= total_yellow_cards %></td>
+          <td><%= total_red_cards %></td>
+        </tr>
+      </tbody>
+    </table> 
+  </div>
 </section>

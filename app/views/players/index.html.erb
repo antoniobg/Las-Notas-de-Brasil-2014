@@ -1,0 +1,60 @@
+<section id="players">
+  <header class="page-header">
+    <h1>Jugadores <small class="hidden-xs">Todos</small></h1>
+  </header>
+  <nav>
+    <ol class="breadcrumb">
+      <li class="active">Jugadores</li>
+    </ol>
+  </nav>
+  <div class="container">
+    <ul class="nav nav-pills">
+      <li class="<%= 'active' unless params[:position] %>"><a href="<%= players_path %>">Todos</a></li>
+      <li class="<%= 'active' if (params[:position] == "1") %>"><a href="<%= players_path(position: 1) %>">POR</a></li>
+      <li class="<%= 'active' if params[:position] == "2" %>"><a href="<%= players_path(position: 2) %>">DEF</a></li>
+      <li class="<%= 'active' if params[:position] == "3" %>"><a href="<%= players_path(position: 3) %>">MED</a></li>
+      <li class="<%= 'active' if params[:position] == "4" %>"><a href="<%= players_path(position: 4) %>">DEL</a></li>
+    </ul>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="hidden-xs">Selección</th>
+          <th>#</th>
+          <th>Rol</th>
+          <th>Nombre</th>
+          <th>Nota</th>
+          <th class="hidden-xs">Votos</th>
+          <th class="hidden-xs">Partidos</th>
+          <th class="hidden-xs">Minutos</th>
+          <th class="hidden-xs">Goles</th>
+          <th class="hidden-xs">Amarillas</th>
+          <th class="hidden-xs">Rojas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @players.each do |player| %>
+        <tr class="<%= 'active' if player.team_id.even? %>">
+          <td><i class="fa fa-flag"></i></td>
+          <td class="hidden-xs"><%= link_to player.team, team_path(player.team) %></td>
+          <td><%= player.number %></td>
+          <td><%= link_to player.position, players_path(position: player.position) %></td>
+          <td><%= link_to player, team_player_path(player.team, player) %></td>
+          <td><span class="label label-<%= class_for_rating(player.rating_avg) %>"><%= player.rating_avg %></span></td>
+          <td class="hidden-xs"><%= player.rating_count %></td>
+          <td class="hidden-xs"><%= player.games_played %></td>
+          <td class="hidden-xs"><%= player.minutes %></td>
+          <td class="hidden-xs"><%= player.goals %></td>
+          <td class="hidden-xs"><%= player.yellow_cards %></td>
+          <td class="hidden-xs"><%= player.red_cards %></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+  <div class="container text-center">
+    <%= will_paginate @players, previous_label: content_tag(:i, '', class: 'fa fa-chevron-left'), next_label: content_tag(:i, '', class: 'fa fa-chevron-right'), renderer: BootstrapPagination::Rails %>
+  </div>
+</section>

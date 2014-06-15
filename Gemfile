@@ -9,6 +9,11 @@ gem 'figaro'
 gem 'sass-rails', '~> 4.0.0'
 gem 'twitter-bootstrap-rails-cdn', '~> 1.1.3'
 gem 'select2-rails', '~> 3.5.4'
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap', '1.0.0'
+gem 'momentjs-rails', '~> 2.5.0'
+gem 'bootstrap3-datetimepicker-rails', '~> 3.0.0.1'
+gem 'bootstrap-slider-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

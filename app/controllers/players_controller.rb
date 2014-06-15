@@ -1,11 +1,15 @@
 class PlayersController < ApplicationController
   before_action :user_is_admin,   except: [:index, :show]
   before_action :set_player,      except: [:index, :new, :create]
-  before_action :set_team 
+  before_action :set_team,        except: :index
   before_action :set_positions,   only:   [:new, :edit]
 
   def index
-    Player.all
+    @players = if params[:position]
+      Player.find_all_by_position_id(params[:position])
+    else
+      Player.all
+    end.paginate(page: params[:page], per_page: 30 )
   end
 
   def new
@@ -28,7 +32,6 @@ class PlayersController < ApplicationController
   end
 
   def update
-    @positions = 
     if @player.update_attributes(player_params)
       flash[:success] = "Player updated successfully"
       redirect_to team_player_path(@team,@player)

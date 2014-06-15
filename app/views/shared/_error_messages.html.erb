@@ -9,7 +9,7 @@
       El formulario contiene los siguientes errores:
       <ul class="fa-ul">
       <!-- Avoid displaying several errors for the same field -->
-      <% hash_errors =object.errors.to_hash(true) %>
+      <% hash_errors = object.errors.to_hash(true) %>
       <% keys = hash_errors.keys %>
       <% keys.each do |key| %>
         <li>
@@ -19,4 +19,6 @@
       </ul>
     </div>
   </div>
+<% else %>
+"MALAKAKAKAAAAAAA"
 <% end %>

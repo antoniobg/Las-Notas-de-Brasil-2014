@@ -1,0 +1,31 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://weloveiconfonts.com/api/?family=maki);
+
+/* maki */
+[class*="maki-"]:before {
+  font-family: 'maki', sans-serif;
+}
+
+.game-stats-table {
+  border-radius: 25px;
+
+  td, th {
+    border: none !important;
+  }
+}
+
+.label-yellow {
+  background-color: #e4de28;
+  color: black !important;
+}
+
+.label-red {
+  background-color: red;
+  color: black !important;
+}
+
+.label-rating {
+  width: 25px !important;
+}

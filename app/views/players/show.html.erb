@@ -1,7 +1,7 @@
-<section class="team">
-  <section class="page-header">
-    <h1><%= "##{@player.number} #{@player}" %> <small><%= @team %></small></h1>
-  </section>
+<section id="player_<%= @player.id %>">
+  <header class="page-header">
+    <h1><%= "##{@player.number} #{@player}" %> <small class="hidden-xs"><%= @team %></small></h1>
+  </header>
 
   <%= render 'show_admin_menu' if signed_in_as_admin? %>
   <nav>
@@ -15,47 +15,44 @@
       <li class="active"><%= @player %></li>
     </ol>
   </nav>
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>Fecha</th>
-        <th>Partido</th>
-        <th>Resultado</th>
-        <th>Nota</th>
-        <th>Votos</th>
-        <th>Minutos</th>
-        <th>Goles</th>
-        <th>Amarillas</th>
-        <th>Rojas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <% @player.performance_records.each do |record| %>
-      <tr class="<%= class_for_player(player) %>">
-        <td><%= record.game.date %></td>
-        <td><%= record.game.name %></td>
-        <td><%= record.game.result %></td>
-        <td><%= player.rating_avg %></td>
-        <td><%= player.rating_count %></td>
-        <td><%= player.games_played %></td>
-        <td><%= player.minutes %></td>
-        <td><%= player.goals %></td>
-        <td><%= player.yellow_cards %></td>
-        <td><%= player.red_cards %></td>
-      </tr>
-      <% end %>
-      <tr>
-        <td><i class="fa fa-users"></i></td>
-        <td>-</td>
-        <td>Equipo</td>
-        <td><%= num_players.zero? ? 0 : (rating_sum / num_players).round(2) %></td>
-        <td>-</td>
-        <td><%= games_played %></td>
-        <td><%= minutes %></td>
-        <td><%= goals %></td>
-        <td><%= yellow_cards %></td>
-        <td><%= red_cards %></td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Fecha</th>
+          <th>Partido</th>
+          <th>Nota</th>
+          <th>Votos</th>
+          <th>Minutos</th>
+          <th>Goles</th>
+          <th>Amarillas</th>
+          <th>Rojas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @player.performance_records.each do |record| %>
+        <tr class="<%= class_for_player(@player) %>">
+          <td><%= record.game.date.to_s(:month_year_and_time) %></td>
+          <td><%= link_to record.game, game_path(record.game) %></td>
+          <td><%= record.rating_avg %></td>
+          <td><%= record.rating_count %></td>
+          <td><%= record.minutes %></td>
+          <td><%= record.goals %></td>
+          <td><%= record.yellow_cards %></td>
+          <td><%= record.red_cards %></td>
+        </tr>
+        <% end %>
+        <tr>
+          <td>-</td>
+          <td>Total</td>
+          <td><%= @player.rating_avg %></td>
+          <td><%= @player.rating_count %></td>
+          <td><%= @player.minutes %></td>
+          <td><%= @player.goals %></td>
+          <td><%= @player.yellow_cards %></td>
+          <td><%= @player.red_cards %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </section>

@@ -11,38 +11,41 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140612103525) do
+ActiveRecord::Schema.define(version: 20140613113245) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "games", force: true do |t|
-    t.string   "name"
     t.datetime "date"
     t.string   "round"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "home_team"
-    t.string   "away_team"
-    t.string   "result",     default: "Por jugar"
+    t.string   "result"
+    t.integer  "home_team_id"
+    t.integer  "away_team_id"
+    t.boolean  "published",    default: false
+    t.boolean  "finished",     default: false
   end
 
   create_table "performance_records", force: true do |t|
     t.integer  "player_id"
     t.integer  "game_id"
-    t.integer  "rating_id"
-    t.integer  "minutes"
+    t.integer  "minutes",        default: 90
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "rating_sum"
-    t.integer  "goals",        default: 0
-    t.integer  "yellow_cards", default: 0
-    t.integer  "red_cards",    default: 0
-    t.integer  "rating_count", default: 0
+    t.integer  "rating_sum",     default: 0
+    t.integer  "goals",          default: 0
+    t.integer  "yellow_cards",   default: 0
+    t.integer  "red_cards",      default: 0
+    t.integer  "rating_count",   default: 0
+    t.boolean  "starting",       default: true
+    t.boolean  "as_home_player", default: true
   end
 
   add_index "performance_records", ["game_id"], name: "index_performance_records_on_game_id", using: :btree
   add_index "performance_records", ["player_id"], name: "index_performance_records_on_player_id", using: :btree
+  add_index "performance_records", ["starting"], name: "index_performance_records_on_starting", using: :btree
 
   create_table "players", force: true do |t|
     t.string   "name"
@@ -79,6 +82,7 @@ ActiveRecord::Schema.define(version: 20140612103525) do
   end
 
   add_index "ratings", ["performance_record_id"], name: "index_ratings_on_performance_record_id", using: :btree
+  add_index "ratings", ["user_id", "performance_record_id"], name: "index_ratings_on_user_id_and_performance_record_id", unique: true, using: :btree
   add_index "ratings", ["user_id"], name: "index_ratings_on_user_id", using: :btree
 
   create_table "teams", force: true do |t|
@@ -86,7 +90,14 @@ ActiveRecord::Schema.define(version: 20140612103525) do
     t.string   "iso_2"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "rating_sum",   default: 0
+    t.integer  "rating_count", default: 0
+    t.integer  "goals",        default: 0
+    t.integer  "yellow_cards", default: 0
+    t.integer  "red_cards",    default: 0
   end
+
+  add_index "teams", ["name"], name: "index_teams_on_name", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "username"

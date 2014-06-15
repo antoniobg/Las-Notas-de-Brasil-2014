@@ -13,5 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require select2
+//= require select2_locale_"es"
+//= require moment
+//= require bootstrap-datetimepicker
+//= require bootstrap-slider
 //= require turbolinks
 //= require_tree .

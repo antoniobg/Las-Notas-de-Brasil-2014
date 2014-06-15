@@ -1,16 +1,25 @@
 Brazil2014::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-  root 'teams#index'
+  root 'games#index'
 
   # Authentication
-  get 'auth/twitter/callback', to: 'sessions#create'
-  get 'auth/failure', to: redirect('/')  
-  get 'signout', to: 'sessions#destroy', as: 'signout'
-  get 'auth/twitter', as: 'signin'
-  
+  get  'auth/twitter/callback', to: 'sessions#create'
+  get  'auth/failure',        to: redirect('/')  
+  get  'signout',             to: 'sessions#destroy', as: 'signout'
+  get  'auth/twitter',                                as: 'signin'
+
+  get  'players',             to: 'players#index',    as: 'players'
+
+  post 'games/:game_id/performance_records/:performance_record_id/ratings/', to: 'ratings#create', as: 'game_performance_record_ratings'
+
+  get  'users/:id/ratings/',  to: 'ratings#index',    as: 'user_ratings'
   resources :teams do
-    resources :players
+    resources :players, except: :index
+  end
+
+  resources :games do
+    resources :performance_records, only: [:new, :create, :destroy]
   end
 
   # You can have the root of your site routed with "root"
