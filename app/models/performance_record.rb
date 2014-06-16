@@ -17,7 +17,6 @@ class PerformanceRecord < ActiveRecord::Base
   validates :red_cards,      presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0, less_than_or_equal_to: 1 }
 
   def rate!(rating)
-    logger.info "Intentando añadir rating a performance record. Parámetro = #{self.rating_sum}"
     self.rating_count += 1
     self.rating_sum += rating
     self.save if self.player.rate!(rating)

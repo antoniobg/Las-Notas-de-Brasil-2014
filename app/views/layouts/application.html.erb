@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <title><%= full_title(yield(:title)) %></title>
   <title>Las Notas de Brasil 2014 - Puntúa la actuación de los jugadores en el Mundial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= twitter_bootstrap_stylesheet_link_tag :netdna, force: true, version: "3.1.1" %>
   <%= stylesheet_link_tag "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", :cache => true %>
+  <link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= twitter_bootstrap_javascript_include_tag :netdna, force: true, version: "3.1.1"  %>
   <%= csrf_meta_tags %>

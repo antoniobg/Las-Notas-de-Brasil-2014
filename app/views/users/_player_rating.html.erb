@@ -1,0 +1,9 @@
+<% if (rating = Rating.where(performance_record_id: record.id, user_id: user.id).first).nil? %>
+  <span class="label label-rating label-default" data-toggle="tooltip" data-placement="top" title="Su Nota">
+    -
+  </span>
+<% else %>
+  <span class="label label-rating label-<%= class_for_rating(rating.rating) %>" data-toggle="tooltip" data-placement="top" title="Su Nota">
+      <%= rating.rating %>
+  </span>
+<% end %>

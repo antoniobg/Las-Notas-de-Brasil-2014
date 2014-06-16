@@ -1,6 +1,9 @@
 class RatingsController < ApplicationController
-  before_action :signed_in_user
-  before_action :set_record
+  before_action :signed_in_user, only: :create
+  before_action :set_record,     only: :create
+  before_action :set_user,       only: :index
+  before_action :set_game,       only: :index
+  before_action :set_records,    only: :index
 
   def create
     @rating = Rating.new(rating_params)
@@ -21,7 +24,7 @@ class RatingsController < ApplicationController
   end
 
   def index
-    
+
   end
 
   private
@@ -32,6 +35,19 @@ class RatingsController < ApplicationController
 
     def set_record
       @record = PerformanceRecord.find(params[:performance_record_id])
+    end
+
+    def set_game
+      @game = Game.find(params[:game_id])
+    end
+
+    def set_user
+      @user = User.find(params[:user_id])
+    end
+
+    def set_records
+      @home_records = @game.performance_records.where(as_home_player: true).order(:starting)
+      @away_records = @game.performance_records.where(as_home_player: false).order(:starting)
     end
 
 end

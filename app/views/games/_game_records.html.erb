@@ -10,7 +10,6 @@
         <th class="hidden-xs"></th>
         <th class="hidden-xs"></th>
         <th class="hidden-xs"></th>
-        <th class="hidden-xs"></th>
         <th class="text-center">Media</th>
         <th class="text-center">Tu Nota</th>
       </tr>
@@ -22,8 +21,10 @@
         <td><%= record.player.position %></td>
         <td><%= record.player %></td>
         <td><%= print_goals(record.goals) %></td>
-        <td class="hidden-xs"><span class="label label-yellow" data-toggle="tooltip" data-placement="top" title="Tarjeta Amarilla"><%= yellow_cards(record.yellow_cards) %></span></td>
-        <td class="hidden-xs"><span class="label label-red" data-toggle="tooltip" data-placement="top" title="Tarjeta Roja"><%= red_card(record.red_cards) %></span></td>
+        <td class="hidden-xs">
+          <span class="label label-yellow" data-toggle="tooltip" data-placement="top" title="Tarjeta Amarilla"><%= yellow_cards(record.yellow_cards) %></span>
+          <span class="label label-red" data-toggle="tooltip" data-placement="top" title="Tarjeta Roja"><%= red_card(record.red_cards) %></span>
+        </td>
         <td class="hidden-xs"><i class="fa fa-clock-o fa-minutes" data-toggle="tooltip" data-placement="top" title="Minutos Jugados"></i> <%= record.minutes %>'</td>
         <td class="hidden-xs"><%= substitution(record) %></td>
         <td class="text-center">

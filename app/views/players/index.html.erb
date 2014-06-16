@@ -1,3 +1,5 @@
+<% provide(:title, "Jugadores") %>
+
 <section id="players">
   <header class="page-header">
     <h1>Jugadores <small class="hidden-xs">Todos</small></h1>
@@ -37,7 +39,7 @@
       <tbody>
         <% @players.each do |player| %>
         <tr class="<%= 'active' if player.team_id.even? %>">
-          <td><i class="fa fa-flag"></i></td>
+          <td><%= image_for(player.team, :small) %></td>
           <td class="hidden-xs"><%= link_to player.team, team_path(player.team) %></td>
           <td><%= player.number %></td>
           <td><%= link_to player.position, players_path(position: player.position) %></td>

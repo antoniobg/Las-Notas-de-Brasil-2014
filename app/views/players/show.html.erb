@@ -1,6 +1,8 @@
+<% provide(:title, @player) %>
+
 <section id="player_<%= @player.id %>">
   <header class="page-header">
-    <h1><%= "##{@player.number} #{@player}" %> <small class="hidden-xs"><%= @team %></small></h1>
+    <h1><%= "##{@player.number} #{@player}" %> <small class="hidden-xs"><%= image_for(@team, :medium) %> <%= @team %></small></h1>
   </header>
 
   <%= render 'show_admin_menu' if signed_in_as_admin? %>
@@ -16,11 +18,11 @@
     </ol>
   </nav>
   <div class="table-responsive">
-    <table class="table table-hover">
+    <table class="table table-hover tablesorter" id="player-games-table">
       <thead>
         <tr>
-          <th>Fecha</th>
-          <th>Partido</th>
+          <th class="sorter-false" data-sorter="false">Fecha</th>
+          <th class="sorter-false" data-sorter="false">Partido</th>
           <th>Nota</th>
           <th>Votos</th>
           <th>Minutos</th>
@@ -33,7 +35,13 @@
         <% @player.performance_records.each do |record| %>
         <tr class="<%= class_for_player(@player) %>">
           <td><%= record.game.date.to_s(:month_year_and_time) %></td>
-          <td><%= link_to record.game, game_path(record.game) %></td>
+          <td>
+            <a href="<%= game_path(record.game) %>">
+              <%= image_for(record.game.home_team, :small) %>
+              <%= record.game %>
+              <%= image_for(record.game.away_team, :small) %>
+            </a>
+          </td>
           <td><%= record.rating_avg %></td>
           <td><%= record.rating_count %></td>
           <td><%= record.minutes %></td>
@@ -42,6 +50,8 @@
           <td><%= record.red_cards %></td>
         </tr>
         <% end %>
+      </tbody>
+      <tfoot>
         <tr>
           <td>-</td>
           <td>Total</td>
@@ -52,7 +62,7 @@
           <td><%= @player.yellow_cards %></td>
           <td><%= @player.red_cards %></td>
         </tr>
-      </tbody>
+      </tfoot>
     </table>
   </div>
 </section>

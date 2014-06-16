@@ -12,6 +12,9 @@ class PlayersController < ApplicationController
     end.paginate(page: params[:page], per_page: 30 )
   end
 
+  def show
+  end
+
   def new
     @positions = Position.all.collect { |p| [p.code, p.id ] }
     @player = Player.new

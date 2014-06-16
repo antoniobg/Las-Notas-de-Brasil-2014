@@ -1,0 +1,28 @@
+<% provide(:title, "Puntuaciones de #{@user} del #{@game}") %>
+
+<section id="game_<%= @game.id %>">
+  <section class="page-header">
+    <h1 class="hidden-xs"><%= image_for(@game.home_team, :large) %> <%= @game.home_team %> <%= @game.result %> <%= @game.away_team %> <%= image_for(@game.away_team, :large) %> <small class="hidden-xs">Puntuaciones de <%= @user %></small></h1>
+    <h1 class="visible-xs text-center"><%= image_for(@game.home_team, :large) %> <%= @game.result %>  <%= image_for(@game.away_team, :large) %></h1>
+
+  </section>
+  <nav>
+    <ol class="breadcrumb">
+      <li>Usuarios</a></li>
+      <li><a href="<%= user_path(@user, @game) %>"><%= @user %></a></li>
+      <li class="active"><%= @game %></li>
+    </ol>
+  </nav>
+  <% if @game.performance_records.count > 0 %>
+  <section id="game-stats">
+    <div class="row">
+      <div class="col-md-6 col-xs-12" id="home_team_records">
+        <%= render 'users/game_records', records: @home_records, user: @user %>
+      </div>
+      <div class="col-md-6 col-xs-12" id="away_team_records">
+        <%= render 'users/game_records', records: @away_records, user: @user %>
+      </div>
+    </div>
+  </section>
+  <% end %>
+</section>

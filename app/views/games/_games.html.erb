@@ -3,26 +3,42 @@
     <thead>
       <tr>
         <th>Fecha</th>
-        <th>Partido</th>
-        <th>Fase</th>
+        <th class="text-center" colspan="3">Partido</th>
+        <th class="hidden-xs">Fase</th>
         <th class="hidden-xs">Estado</th>
       </tr>
     </thead>
     <tbody>
       <% games.each do |game| %>
       <tr class="<%= class_for_game(game) %>">
-        <td>
+        <td style="width:auto;white-space:nowrap">
           <i class="fa fa-calendar"></i>
           <%= time_for_game(game.date) %>
         </td>
-        <td>
+        <td class="text-right">
+          <%= image_for(game.home_team, :small) %>
           <% if game.performance_records.any? %>
-            <%= link_to game, game_path(game) %>
+            <%= link_to game.home_team, game_path(game) %>
           <% else %>
-            <%=  game %>
+            <%=  link_to game.home_team, team_path(game.home_team) %>
           <% end %>
         </td>
-        <td><%= game.round %></td>
+        <td class="text-center">
+          <% if game.performance_records.any? %>
+            <%= link_to game.result, game_path(game) %>
+          <% else %>
+            <%=  game.result %>
+          <% end %>        
+        </td>
+        <td>
+          <% if game.performance_records.any? %>
+            <%= link_to game.away_team, game_path(game) %>
+          <% else %>
+            <%=  link_to game.away_team, team_path(game.away_team) %>
+          <% end %>
+          <%= image_for(game.away_team, :small) %>
+        </td>
+        <td class="hidden-xs"><%= game.round %></td>
         <td class="hidden-xs">
           <%= game_is_finished(game) %>
         </td>

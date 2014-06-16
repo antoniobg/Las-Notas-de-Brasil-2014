@@ -13,7 +13,9 @@ Brazil2014::Application.routes.draw do
 
   post 'games/:game_id/performance_records/:performance_record_id/ratings/', to: 'ratings#create', as: 'game_performance_record_ratings'
 
-  get  'users/:id/ratings/',  to: 'ratings#index',    as: 'user_ratings'
+  get 'users/:user_id/games/:game_id', to: 'ratings#index', as: 'user_game'
+  resources :users, only: :show
+
   resources :teams do
     resources :players, except: :index
   end
