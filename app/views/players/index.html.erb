@@ -9,15 +9,31 @@
       <li class="active">Jugadores</li>
     </ol>
   </nav>
-  <div class="container">
-    <ul class="nav nav-pills">
-      <li class="<%= 'active' unless params[:position] %>"><a href="<%= players_path %>">Todos</a></li>
-      <li class="<%= 'active' if (params[:position] == "1") %>"><a href="<%= players_path(position: 1) %>">POR</a></li>
-      <li class="<%= 'active' if params[:position] == "2" %>"><a href="<%= players_path(position: 2) %>">DEF</a></li>
-      <li class="<%= 'active' if params[:position] == "3" %>"><a href="<%= players_path(position: 3) %>">MED</a></li>
-      <li class="<%= 'active' if params[:position] == "4" %>"><a href="<%= players_path(position: 4) %>">DEL</a></li>
-    </ul>
-  </div>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#round-filters">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand visible-xs" href="#">Filtros: </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse text-right" id="round-filters">
+        <ul class="nav navbar-nav">
+          <li class="<%= 'active' unless params[:position] %>"><a href="<%= players_path %>">Todos</a></li>
+          <li class="<%= 'active' if (params[:position] == "1") %>"><a href="<%= players_path(position: 1) %>">POR</a></li>
+          <li class="<%= 'active' if params[:position] == "2" %>"><a href="<%= players_path(position: 2) %>">DEF</a></li>
+          <li class="<%= 'active' if params[:position] == "3" %>"><a href="<%= players_path(position: 3) %>">MED</a></li>
+          <li class="<%= 'active' if params[:position] == "4" %>"><a href="<%= players_path(position: 4) %>">DEL</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="table-responsive">
     <table class="table table-hover">
       <thead>

@@ -1,3 +1,6 @@
+a {
+  color: #21B574 !important;
+}
 .yellow {
   color: yellow;
 }
@@ -5,3 +8,69 @@
 .green {
   color: green;
 }
+
+.footer {
+  color: grey;
+  font-size: 0.85em;
+}
+
+.navbar-brazil {
+  background-color: #1B945F;
+  .navbar-brand {
+    font-family: 'Arvo', serif;
+    color: white !important;
+    padding: 5px 20px;
+    transition: ease 0.6s;
+  }
+  .navbar-brand:hover {
+    -webkit-transform:translateX(10px); /* Safari and Chrome */
+        -ms-transform:translateX(10px); /* IE 9 */
+            transform:translateX(10px);
+    img {
+      -webkit-filter: drop-shadow(2px 2px 3px black);
+              filter: drop-shadow(2px 2px 3px black); 
+    }
+    text-shadow: 2px 2px 3px black;   
+
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Arvo', serif !important;
+}
+
+.panel-heading {
+  background-color: #1B945F !important;
+  border-color: #1B945F !important;
+}
+ul.nav.navbar-nav {
+  li > a {
+    color: #D4D4D4 !important;
+  }
+  li > a:hover {
+    color: white !important;
+    background-color: #21B574;
+  }
+  li.active > a {
+    color: white !important;
+    background-color: #188555;
+  }  
+  li.active > a:hover {
+    color: white !important;
+    background-color: #21B574;
+  }
+}
+#round-filters {
+  ul.nav.navbar-nav {
+    li > a {
+      color: #333 !important;
+    }
+    li > a:hover {
+      color: white !important;
+    }
+    li.active > a {
+      color: white !important;
+    }
+  }
+}
+

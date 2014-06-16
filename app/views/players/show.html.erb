@@ -33,7 +33,7 @@
       </thead>
       <tbody>
         <% @player.performance_records.each do |record| %>
-        <tr class="<%= class_for_player(@player) %>">
+        <tr>
           <td><%= record.game.date.to_s(:month_year_and_time) %></td>
           <td>
             <a href="<%= game_path(record.game) %>">
