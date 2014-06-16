@@ -19,3 +19,5 @@
 /config/application.yml
 *.secret.rb
 *.psd
+*.sublime-workspace
+*.sublime-project
