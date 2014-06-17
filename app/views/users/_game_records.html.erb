@@ -19,7 +19,7 @@
       <tr class="<%= class_for_record(record) %>" id="rate_record_<%= record.id %>">
         <td><%= record.player.number %></td>
         <td><%= record.player.position %></td>
-        <td><%= record.player %></td>
+        <td><%= link_to record.player, team_player_path(record.player.team, record.player) %></td>
         <td><%= print_goals(record.goals) %></td>
         <td class="hidden-xs">
           <span class="label label-yellow" data-toggle="tooltip" data-placement="top" title="Tarjeta Amarilla"><%= yellow_cards(record.yellow_cards) %></span>
