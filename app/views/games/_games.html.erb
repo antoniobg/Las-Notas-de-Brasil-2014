@@ -17,7 +17,7 @@
         </td>
         <td class="text-right">
           <%= image_for(game.home_team, :small) %>
-          <% if game.performance_records.any? %>
+          <% if game.performance_records.any? or signed_in_as_admin? %>
             <%= link_to game.home_team, game_path(game) %>
           <% else %>
             <%=  link_to game.home_team, team_path(game.home_team) %>
@@ -31,7 +31,7 @@
           <% end %>        
         </td>
         <td>
-          <% if game.performance_records.any? %>
+          <% if game.performance_records.any? or signed_in_as_admin? %>
             <%= link_to game.away_team, game_path(game) %>
           <% else %>
             <%=  link_to game.away_team, team_path(game.away_team) %>
