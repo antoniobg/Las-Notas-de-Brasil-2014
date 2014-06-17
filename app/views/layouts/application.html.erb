@@ -6,6 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Puntúa la actuación de los jugadores en el Mundial de Brasil 2014 y compárte tus impresiones con tus amigos.">
   <%= yield(:extra_meta) if content_for?(:extra_meta) %>
+  
+  <!-- Open Graph -->
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<%= full_title(yield(:title)) %>" />
+  <meta property="og:description" content="Evalúa la actuación de los jugadores y las selecciones en el Mundial de Brasil 2014 y comparte tus impresiones con tus amigos." />
+  <meta property="og:url" content="http://lasnotasdebrasil2014.herokuapp.com/" />
+  <meta property="og:site_name" content="Las Notas del Mundial" />
+  <meta property="og:image" content="<%= image_path('logo-original.png') %>" />
 
   <%= render 'layouts/favicons' %>
   <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>

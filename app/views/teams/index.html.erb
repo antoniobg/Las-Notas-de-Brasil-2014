@@ -28,7 +28,11 @@
         <tr>
           <td class="text-center"><%= image_for(team, :small) %></td>
           <td><%= link_to team, team_path(team) %></td>
-          <td><%= team.rating_avg %></td>
+          <td>
+            <span class="label label-<%= class_for_rating(team.rating_avg) %>">
+              <%= team.rating_avg %>
+            </span>
+          </td>
           <td><%= team.games_played %></td>
           <td><%= team.goals %></td>
           <td><%= team.yellow_cards %></td>
