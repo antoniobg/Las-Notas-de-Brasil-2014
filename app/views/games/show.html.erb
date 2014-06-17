@@ -4,7 +4,8 @@
 <% end %>
 <section id="game_<%= @game.id %>">
   <section class="page-header">
-    <h1><%= image_for(@game.home_team, :large) %> <%= @game %> <%= image_for(@game.away_team, :large) %> <small class="hidden-xs"><%= time_for_game(@game.date) %></small></h1>
+    <h1 class="hidden-xs"><%= image_for(@game.home_team, :large) %> <%= @game %> <%= image_for(@game.away_team, :large) %> <small><%= time_for_game(@game.date) %></small></h1>
+    <h1 class="visible-xs"><%= image_for(@game.home_team, :large) %> <%= @game.result %> <%= image_for(@game.away_team, :large) %> <small><%= time_for_game(@game.date) %></small></h1>
   </section>
   <%= render 'show_admin_menu' if signed_in_as_admin? %>
   <nav>
