@@ -17,6 +17,7 @@ gem 'bootstrap-slider-rails'
 gem 'cookies_eu'
 gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
 gem 'rails_12factor', '0.0.2'
+gem 'jquery-turbolinks'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
