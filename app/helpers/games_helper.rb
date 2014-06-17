@@ -1,6 +1,6 @@
 module GamesHelper
   def class_for_game(game)
-    game.finished? ? 'info' : ''
+    game.finished? ? 'active' : ''
   end
 
   def render_game_body(game)
