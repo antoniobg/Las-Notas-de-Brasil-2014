@@ -19,7 +19,7 @@
 
 # Ignore application configuration
 /config/application.yml
-secret_token.rb
+/config/initializers/secret_token.rb
 *.secret.rb
 *.psd
 *.sublime-workspace
