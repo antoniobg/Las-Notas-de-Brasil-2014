@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require turbolinks
 //= require jquery_ujs
 //= require select2
 //= require select2_locale_"es"
@@ -18,5 +19,4 @@
 //= require bootstrap-datetimepicker
 //= require bootstrap-slider
 //= require cookies_eu
-//= require turbolinks
 //= require_tree .
