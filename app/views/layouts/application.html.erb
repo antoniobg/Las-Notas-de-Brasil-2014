@@ -5,12 +5,18 @@
   <title>Las Notas de Brasil 2014 - Puntúa la actuación de los jugadores en el Mundial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Puntúa la actuación de los jugadores en el Mundial de Brasil 2014 y compárte tus impresiones con tus amigos.">
+  <%= yield(:extra_meta) if content_for?(:extra_meta) %>
+
+  <%= render 'layouts/favicons' %>
   <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= twitter_bootstrap_stylesheet_link_tag :netdna, force: true, version: "3.1.1" %>
   <%= stylesheet_link_tag "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", :cache => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= twitter_bootstrap_javascript_include_tag :netdna, force: true, version: "3.1.1"  %>
+  <% if cookies[:visits] == 0 %>
+    <%= render 'shared/launch_modal' %>
+  <% end %>
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
 </head>
@@ -34,7 +40,9 @@
   <% end %>  
   <section class="container">
     <%= yield %>
+    <%= render 'shared/signin_modal' %>
   </section>
   <%= render 'layouts/footer' %>
+  <%= render 'cookies_eu/cookies_eu', link: cookies_path %>
 </body>
 </html>

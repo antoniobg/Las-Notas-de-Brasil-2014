@@ -1,0 +1,22 @@
+[
+  {
+    "code": "POR",
+    "name": "Portero",
+    "priority": 1
+  },
+  {
+    "code": "DEF",
+    "name": "Defensa",
+    "priority": 2
+  },
+  {
+    "code": "MED",
+    "name": "Centrocampista",
+    "priority": 3
+  },
+  {
+    "code": "DEL",
+    "name": "Delantero",
+    "priority": 4
+  }
+]

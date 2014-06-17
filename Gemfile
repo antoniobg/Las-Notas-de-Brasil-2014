@@ -14,6 +14,8 @@ gem 'will_paginate-bootstrap', '1.0.0'
 gem 'momentjs-rails', '~> 2.5.0'
 gem 'bootstrap3-datetimepicker-rails', '~> 3.0.0.1'
 gem 'bootstrap-slider-rails'
+gem 'cookies_eu'
+gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

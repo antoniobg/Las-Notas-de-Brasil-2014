@@ -1,5 +1,5 @@
 <div class="table-responsive">
-  <h4 class="text-center"><%= records.first.as_home_player? ? @game.home_team : @game.away_team %></h4>
+  <h4 class="text-center"><%= home ? @game.home_team : @game.away_team %></h4>
   <table class="table table-condensed table-hover table-bordered game-stats-table">
     <thead>
       <tr>

@@ -6,10 +6,11 @@ Brazil2014::Application.routes.draw do
   # Authentication
   get  'auth/twitter/callback', to: 'sessions#create'
   get  'auth/failure',        to: redirect('/')  
-  get  'signout',             to: 'sessions#destroy', as: 'signout'
-  get  'auth/twitter',                                as: 'signin'
+  get  'signout',             to: 'sessions#destroy',       as: 'signout'
+  get  'auth/twitter',                                      as: 'signin'
+  get  'cookies',             to: 'static_pages#cookies',   as: 'cookies'
 
-  get  'players',             to: 'players#index',    as: 'players'
+  get  'players',             to: 'players#index',          as: 'players'
 
   post 'games/:game_id/performance_records/:performance_record_id/ratings/', to: 'ratings#create', as: 'game_performance_record_ratings'
 

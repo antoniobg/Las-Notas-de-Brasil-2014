@@ -13,5 +13,6 @@
  *= require select2-bootstrap
  *= require bootstrap-datetimepicker
  *= require bootstrap-slider
+ *= require cookies_eu
  *= require_tree .
  */

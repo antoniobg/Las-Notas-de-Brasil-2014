@@ -1,3 +1,4 @@
+$primary-green: #1B945F;
 a {
   color: #21B574 !important;
 }
@@ -12,10 +13,11 @@ a {
 .footer {
   color: grey;
   font-size: 0.85em;
+  margin-top: 25px;
 }
 
 .navbar-brazil {
-  background-color: #1B945F;
+  background-color: $primary-green;
   .navbar-brand {
     font-family: 'Arvo', serif;
     color: white !important;
@@ -40,8 +42,8 @@ h1, h2, h3, h4 {
 }
 
 .panel-heading {
-  background-color: #1B945F !important;
-  border-color: #1B945F !important;
+  background-color: $primary-green !important;
+  border-color: $primary-green !important;
 }
 ul.nav.navbar-nav {
   li > a {
@@ -72,5 +74,45 @@ ul.nav.navbar-nav {
       color: white !important;
     }
   }
+}
+
+a.btn, .cookies-eu-ok, button.btn.primary-green {
+  color: white !important;
+}
+a.primary-green, .cookies-eu-ok, button.primary-green {
+  background-color: $primary-green !important;
+  background-image: none !important;
+}
+a.primary-green:hover, .cookies-eu-ok:hover, button.primary-green:hover {
+  background-color: #188555 !important;
+}
+
+.pagination {
+  li {
+      color: white;
+      background-color: $primary-green;
+    a:hover {
+      color: white !important;
+      background-color: $primary-green !important;
+    }
+  }
+}
+.pagination {
+  li.active {
+    span {
+      color: white;
+      background-color: #188555;
+    }
+  }
+  li.active:hover {
+    span {
+      color: white;
+      background-color: #21B574;
+    }
+  }
+}
+
+.modal.fade {
+  top: 15%;
 }
 

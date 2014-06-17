@@ -4,7 +4,11 @@
     <input class="form-control input-sm" id="rating_rating" max="10" min="0" name="rating[rating]" type="number" placeholder="Nota">
     <span class="input-group-btn">
       <%= submit_tag('Votar', class: 'btn btn-default btn-sm') if signed_in? %>
-      <%= link_to('Votar', root_path, class: 'btn btn-default btn-sm') unless signed_in? %>
+      <% unless signed_in? %>
+        <button class="btn primary-green btn-sm" data-toggle="modal" data-target="#signin-modal">
+        Votar
+        </button>
+      <% end %>
     </span>
   </div>
   <% end %>

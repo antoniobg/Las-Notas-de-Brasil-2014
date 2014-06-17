@@ -17,5 +17,6 @@
 //= require moment
 //= require bootstrap-datetimepicker
 //= require bootstrap-slider
+//= require cookies_eu
 //= require turbolinks
 //= require_tree .

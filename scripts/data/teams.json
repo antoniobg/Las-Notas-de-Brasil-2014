@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Argentina",
+    "iso_2": "ar"
+  },
+  {
+    "name": "Australia",
+    "iso_2": "au"
+  },
+  {
+    "name": "Bosnia-Herzegovina",
+    "iso_2": "ba"
+  },
+  {
+    "name": "Bélgica",
+    "iso_2": "be"
+  },
+  {
+    "name": "Brasil",
+    "iso_2": "br"
+  },
+  {
+    "name": "Suiza",
+    "iso_2": "ch"
+  },
+  {
+    "name": "Costa de Marfil",
+    "iso_2": "ci"
+  },
+  {
+    "name": "Chile",
+    "iso_2": "cl"
+  },
+  {
+    "name": "Camerún",
+    "iso_2": "cm"
+  },
+  {
+    "name": "Colombia",
+    "iso_2": "co"
+  },
+  {
+    "name": "Costa Rica",
+    "iso_2": "cr"
+  },
+  {
+    "name": "Alemania",
+    "iso_2": "de"
+  },
+  {
+    "name": "Argelia",
+    "iso_2": "dz"
+  },
+  {
+    "name": "Ecuador",
+    "iso_2": "ec"
+  },
+  {
+    "name": "Inglaterra",
+    "iso_2": "en"
+  },
+  {
+    "name": "España",
+    "iso_2": "es"
+  },
+  {
+    "name": "Francia",
+    "iso_2": "fr"
+  },
+  {
+    "name": "Ghana",
+    "iso_2": "gh"
+  },
+  {
+    "name": "Grecia",
+    "iso_2": "gr"
+  },
+  {
+    "name": "Honduras",
+    "iso_2": "hn"
+  },
+  {
+    "name": "Croacia",
+    "iso_2": "hr"
+  },
+  {
+    "name": "Irán",
+    "iso_2": "ir"
+  },
+  {
+    "name": "Italia",
+    "iso_2": "it"
+  },
+  {
+    "name": "Japón",
+    "iso_2": "jp"
+  },
+  {
+    "name": "Corea del Sur",
+    "iso_2": "kr"
+  },
+  {
+    "name": "México",
+    "iso_2": "mx"
+  },
+  {
+    "name": "Nigeria",
+    "iso_2": "ng"
+  },
+  {
+    "name": "Holanda",
+    "iso_2": "nl"
+  },
+  {
+    "name": "Portugal",
+    "iso_2": "pt"
+  },
+  {
+    "name": "Rusia",
+    "iso_2": "ru"
+  },
+  {
+    "name": "Estados Unidos",
+    "iso_2": "us"
+  },
+  {
+    "name": "Uruguay",
+    "iso_2": "uy"
+  }
+]

@@ -1,5 +1,7 @@
 <% provide(:title, "Puntuaciones de #{@user} del #{@game}") %>
-
+<% content_for :extra_meta do %> 
+  <%= render 'shared/twitter_cards', user: @user, game: @game %>
+<% end %>
 <section id="game_<%= @game.id %>">
   <section class="page-header">
     <h1 class="hidden-xs"><%= image_for(@game.home_team, :large) %> <%= @game.home_team %> <%= @game.result %> <%= @game.away_team %> <%= image_for(@game.away_team, :large) %> <small class="hidden-xs">Puntuaciones de <%= @user %></small></h1>
@@ -17,12 +19,17 @@
   <section id="game-stats">
     <div class="row">
       <div class="col-md-6 col-xs-12" id="home_team_records">
-        <%= render 'users/game_records', records: @home_records, user: @user %>
+        <%= render 'users/game_records', records: @home_records, user: @user, home: true %>
       </div>
       <div class="col-md-6 col-xs-12" id="away_team_records">
-        <%= render 'users/game_records', records: @away_records, user: @user %>
+        <%= render 'users/game_records', records: @away_records, user: @user, home: false %>
       </div>
     </div>
   </section>
+  <footer class="text-center">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Mira las notas de @<%= @user %> para el #<%= @game.home_team %> - #<%= @game.away_team %>" data-lang="es" data-related="<%= @user %>" data-size="large" data-hashtags="LasNotasDeBrasil2014, WorldCup2014">Twittear</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </footer>
+
   <% end %>
 </section>

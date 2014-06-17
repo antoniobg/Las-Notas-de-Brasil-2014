@@ -1,0 +1,3746 @@
+{
+  "ar": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Sergio Romero"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Agustín Orión"
+    },
+    {
+      "number": "21",
+      "position": "POR",
+      "name": "Mariano Andújar"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Ezequiel Garay"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Hugo Campagnaro"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Pablo Zabaleta"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Martín Demichelis"
+    },
+    {
+      "number": "16",
+      "position": "DEF",
+      "name": "Marcos Rojo"
+    },
+    {
+      "number": "17",
+      "position": "DEF",
+      "name": "Federico Fernández"
+    },
+    {
+      "number": "23",
+      "position": "DEF",
+      "name": "José María Basanta"
+    },
+    {
+      "number": "5",
+      "position": "MED",
+      "name": "Fernando Gago"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Lucas Biglia"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Ángel di María"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Enzo Pérez"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Maxi Rodríguez"
+    },
+    {
+      "number": "13",
+      "position": "MED",
+      "name": "Augusto Fernández"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Javier Mascherano"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Ricardo Álvarez"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Gonzalo Higuaín"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Lionel Messi"
+    },
+    {
+      "number": "18",
+      "position": "DEL",
+      "name": "Rodrigo Palacio"
+    },
+    {
+      "number": "20",
+      "position": "DEL",
+      "name": "Sergio Agüero"
+    },
+    {
+      "number": "22",
+      "position": "DEL",
+      "name": "Ezequiel Lavezzi"
+    }
+  ],
+  "au": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Mathew Ryan"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Mitchell Langerak"
+    },
+    {
+      "number": "18",
+      "position": "POR",
+      "name": "Eugene Galeković"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Ivan Franjić"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Jason Davidson"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Matthew Špiranović"
+    },
+    {
+      "number": "8",
+      "position": "DEF",
+      "name": "Bailey Wright"
+    },
+    {
+      "number": "19",
+      "position": "DEF",
+      "name": "Ryan McGowan"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "Alex Wilkinson"
+    },
+    {
+      "number": "5",
+      "position": "MED",
+      "name": "Mark Milligan"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Ben Halloran"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Tommy Oar"
+    },
+    {
+      "number": "13",
+      "position": "MED",
+      "name": "Oliver Bozanić"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "James Troisi"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Mile Jedinak"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "James Holland"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Matt McKay"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Dario Vidošić"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Massimo Luongo"
+    },
+    {
+      "number": "23",
+      "position": "MED",
+      "name": "Mark Bresciano"
+    },
+    {
+      "number": "4",
+      "position": "DEL",
+      "name": "Tim Cahill"
+    },
+    {
+      "number": "7",
+      "position": "DEL",
+      "name": "Mathew Leckie"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Adam Taggart"
+    }
+  ],
+  "ba": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Asmir Begović"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Jasmin Fejzić"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Asmir Avdukić"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Avdija Vršajević"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Ermin Bičakčić"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Emir Spahić"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Sead Kolašinac"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Ognjen Vranješ"
+    },
+    {
+      "number": "7",
+      "position": "DEF",
+      "name": "Muhamed Bešić"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Mensur Mujdža"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Toni Šunjić"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Miralem Pjanić"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Zvjezdan Misimović"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Izet Hajrović"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Senad Lulić"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Senijad Ibričić"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Haris Medunjanin"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Anel Hadžić"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Tino-Sven Sušić"
+    },
+    {
+      "number": "23",
+      "position": "MED",
+      "name": "Sejad Salihović"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Vedad Ibišević"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Edin Džeko"
+    },
+    {
+      "number": "19",
+      "position": "DEL",
+      "name": "Edin Višća"
+    }
+  ],
+  "be": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Thibaut Courtois"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Simon Mignolet"
+    },
+    {
+      "number": "13",
+      "position": "POR",
+      "name": "Sammy Bossut"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Toby Alderweireld"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Thomas Vermaelen"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Vincent Kompany"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Jan Vertonghen"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Daniel Van Buyten"
+    },
+    {
+      "number": "18",
+      "position": "DEF",
+      "name": "Nicolas Lombaerts"
+    },
+    {
+      "number": "21",
+      "position": "DEF",
+      "name": "Anthony Vanden Borre"
+    },
+    {
+      "number": "23",
+      "position": "DEF",
+      "name": "Laurent Ciman"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Axel Witsel"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Kevin De Bruyne"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Marouane Fellaini"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Eden Hazard"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Kevin Mirallas"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Steven Defour"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Mousa Dembélé"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Adnan Januzaj"
+    },
+    {
+      "number": "22",
+      "position": "MED",
+      "name": "Nacer Chadli"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Romelu Lukaku"
+    },
+    {
+      "number": "14",
+      "position": "DEL",
+      "name": "Dries Mertens"
+    },
+    {
+      "number": "17",
+      "position": "DEL",
+      "name": "Divock Origi"
+    }
+  ],
+  "br": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Jefferson"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Júlio César"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Victor"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Dani Alves"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Thiago Silva"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "David Luiz"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Marcelo"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Dante"
+    },
+    {
+      "number": "14",
+      "position": "DEF",
+      "name": "Maxwell"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Henrique"
+    },
+    {
+      "number": "23",
+      "position": "DEF",
+      "name": "Maicon"
+    },
+    {
+      "number": "5",
+      "position": "MED",
+      "name": "Fernandinho"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Paulinho"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Oscar"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Ramires"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Luiz Gustavo"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Hernanes"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Willian"
+    },
+    {
+      "number": "7",
+      "position": "DEL",
+      "name": "Hulk"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Fred"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Neymar"
+    },
+    {
+      "number": "20",
+      "position": "DEL",
+      "name": "Bernard"
+    },
+    {
+      "number": "21",
+      "position": "DEL",
+      "name": "Jô"
+    }
+  ],
+  "ch": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Diego Benaglio"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Yann Sommer"
+    },
+    {
+      "number": "21",
+      "position": "POR",
+      "name": "Roman Bürki"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Stephan Lichtsteiner"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Reto Ziegler"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Philippe Senderos"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Steve von Bergen"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Michael Lang"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Ricardo Rodríguez"
+    },
+    {
+      "number": "20",
+      "position": "DEF",
+      "name": "Johan Djourou"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "Fabian Schär"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Tranquillo Barnetta"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Gökhan Inler"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Granit Xhaka"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Valon Behrami"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Valentin Stocker"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Blerim Džemaili"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Gelson Fernandes"
+    },
+    {
+      "number": "23",
+      "position": "MED",
+      "name": "Xherdan Shaqiri"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Haris Seferović"
+    },
+    {
+      "number": "17",
+      "position": "DEL",
+      "name": "Mario Gavranović"
+    },
+    {
+      "number": "18",
+      "position": "DEL",
+      "name": "Admir Mehmedi"
+    },
+    {
+      "number": "19",
+      "position": "DEL",
+      "name": "Josip Drmić"
+    }
+  ],
+  "ci": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Boubacar Barry"
+    },
+    {
+      "number": "16",
+      "position": "POR",
+      "name": "Sylvain Gbohouo"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Sayouba Mandé"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Ousmane Viera"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Arthur Boka"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Kolo Touré"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Didier Zokora"
+    },
+    {
+      "number": "7",
+      "position": "DEF",
+      "name": "Jean-Daniel Akpa-Akpro"
+    },
+    {
+      "number": "17",
+      "position": "DEF",
+      "name": "Serge Aurier"
+    },
+    {
+      "number": "18",
+      "position": "DEF",
+      "name": "Constant Djakpa"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "Sol Bamba"
+    },
+    {
+      "number": "9",
+      "position": "MED",
+      "name": "Cheick Tioté"
+    },
+    {
+      "number": "13",
+      "position": "MED",
+      "name": "Didier Ya Konan"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Ismaël Diomandé"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Yaya Touré"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Serey Die"
+    },
+    {
+      "number": "6",
+      "position": "DEL",
+      "name": "Mathis Bolly"
+    },
+    {
+      "number": "8",
+      "position": "DEL",
+      "name": "Salomon Kalou"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Gervinho"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Didier Drogba"
+    },
+    {
+      "number": "12",
+      "position": "DEL",
+      "name": "Wilfried Bony"
+    },
+    {
+      "number": "15",
+      "position": "DEL",
+      "name": "Max Gradel"
+    },
+    {
+      "number": "21",
+      "position": "DEL",
+      "name": "Giovanni Sio"
+    }
+  ],
+  "cl": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Claudio Bravo"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Cristopher Toselli"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Johnny Herrera"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Eugenio Mena"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Miiko Albornoz"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "José Rojas"
+    },
+    {
+      "number": "17",
+      "position": "DEF",
+      "name": "Gary Medel"
+    },
+    {
+      "number": "18",
+      "position": "DEF",
+      "name": "Gonzalo Jara"
+    },
+    {
+      "number": "4",
+      "position": "MED",
+      "name": "Mauricio Isla"
+    },
+    {
+      "number": "5",
+      "position": "MED",
+      "name": "Francisco Silva"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Carlos Carmona"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Arturo Vidal"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Jorge Valdívia"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Fabián Orellana"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Jean Beausejour"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Felipe Gutiérrez"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "José Pedro Fuenzalida"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Charles Aránguiz"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Marcelo Díaz"
+    },
+    {
+      "number": "7",
+      "position": "DEL",
+      "name": "Alexis Sánchez"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Mauricio Pinilla"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Eduardo Vargas"
+    },
+    {
+      "number": "22",
+      "position": "DEL",
+      "name": "Esteban Paredes"
+    }
+  ],
+  "cm": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Loïc Feudjou"
+    },
+    {
+      "number": "16",
+      "position": "POR",
+      "name": "Charles Itandje"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Sammy N'Djock"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Benoît Assou-Ekotto"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Nicolas N'Koulou"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Cédric Djeugoué"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Dany Nounkeu"
+    },
+    {
+      "number": "12",
+      "position": "DEF",
+      "name": "Henri Bedimo"
+    },
+    {
+      "number": "14",
+      "position": "DEF",
+      "name": "Aurélien Chedjou"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "Allan Nyom"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Alex Song"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Landry N'Guémo"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Jean Makoun"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Stéphane Mbia"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Eyong Enoh"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Edgar Salli"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Joël Matip"
+    },
+    {
+      "number": "8",
+      "position": "DEL",
+      "name": "Benjamin Moukandjo"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Samuel Eto'o"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Vincent Aboubakar"
+    },
+    {
+      "number": "13",
+      "position": "DEL",
+      "name": "Maxim Choupo-Moting"
+    },
+    {
+      "number": "15",
+      "position": "DEL",
+      "name": "Pierre Webó"
+    },
+    {
+      "number": "19",
+      "position": "DEL",
+      "name": "Fabrice Olinga"
+    }
+  ],
+  "co": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "David Ospina"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Camilo Vargas"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Faryd Mondragón"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Cristián Zapata"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Mario Yepes"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Santiago Arias"
+    },
+    {
+      "number": "7",
+      "position": "DEF",
+      "name": "Pablo Armero"
+    },
+    {
+      "number": "16",
+      "position": "DEF",
+      "name": "Éder Álvarez Balanta"
+    },
+    {
+      "number": "18",
+      "position": "DEF",
+      "name": "Juan Camilo Zúñiga"
+    },
+    {
+      "number": "23",
+      "position": "DEF",
+      "name": "Carlos Valdés"
+    },
+    {
+      "number": "5",
+      "position": "MED",
+      "name": "Carlos Carbonero"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Carlos Sánchez"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Abel Aguilar"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "James Rodríguez"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Juan Guillermo Cuadrado"
+    },
+    {
+      "number": "13",
+      "position": "MED",
+      "name": "Fredy Guarín"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Víctor Ibarbo"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Alexander Mejía"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Juan Fernando Quintero"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Teófilo Gutiérrez"
+    },
+    {
+      "number": "17",
+      "position": "DEL",
+      "name": "Carlos Bacca"
+    },
+    {
+      "number": "19",
+      "position": "DEL",
+      "name": "Adrián Ramos"
+    },
+    {
+      "number": "21",
+      "position": "DEL",
+      "name": "Jackson Martínez"
+    }
+  ],
+  "cr": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Keylor Navas"
+    },
+    {
+      "number": "18",
+      "position": "POR",
+      "name": "Patrick Pemberton"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Daniel Cambronero"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Johnny Acosta"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Giancarlo González"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Michael Umaña"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Óscar Duarte"
+    },
+    {
+      "number": "8",
+      "position": "DEF",
+      "name": "Heiner Mora"
+    },
+    {
+      "number": "12",
+      "position": "DEF",
+      "name": "Waylon Francis"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Júnior Díaz"
+    },
+    {
+      "number": "16",
+      "position": "DEF",
+      "name": "Cristian Gamboa"
+    },
+    {
+      "number": "19",
+      "position": "DEF",
+      "name": "Roy Miller"
+    },
+    {
+      "number": "5",
+      "position": "MED",
+      "name": "Celso Borges"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Christian Bolaños"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Michael Barrantes"
+    },
+    {
+      "number": "13",
+      "position": "MED",
+      "name": "Esteban Granados"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Yeltsin Tejeda"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Diego Calvo"
+    },
+    {
+      "number": "22",
+      "position": "MED",
+      "name": "José Miguel Cubero"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Joel Campbell"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Bryan Ruiz"
+    },
+    {
+      "number": "14",
+      "position": "DEL",
+      "name": "Randall Brenes"
+    },
+    {
+      "number": "21",
+      "position": "DEL",
+      "name": "Marco Ureña"
+    }
+  ],
+  "de": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Manuel Neuer"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Ron-Robert Zieler"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Roman Weidenfeller"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Kevin Großkreutz"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Benedikt Höwedes"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Mats Hummels"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Erik Durm"
+    },
+    {
+      "number": "16",
+      "position": "DEF",
+      "name": "Philipp Lahm"
+    },
+    {
+      "number": "17",
+      "position": "DEF",
+      "name": "Per Mertesacker"
+    },
+    {
+      "number": "20",
+      "position": "DEF",
+      "name": "Jérôme Boateng"
+    },
+    {
+      "number": "3",
+      "position": "MED",
+      "name": "Matthias Ginter"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Sami Khedira"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Bastian Schweinsteiger"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Mesut Özil"
+    },
+    {
+      "number": "9",
+      "position": "MED",
+      "name": "André Schürrle"
+    },
+    {
+      "number": "13",
+      "position": "MED",
+      "name": "Thomas Müller"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Julian Draxler"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Toni Kroos"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Mario Götze"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Marco Reus"
+    },
+    {
+      "number": "23",
+      "position": "MED",
+      "name": "Christoph Kramer"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Lukas Podolski"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Miroslav Klose"
+    }
+  ],
+  "dz": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Cédric Si Mohamed"
+    },
+    {
+      "number": "16",
+      "position": "POR",
+      "name": "Mohamed Zemmamouche"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Raïs M'Bolhi"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Madjid Bougherra"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Faouzi Ghoulam"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Essaïd Belkalem"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Rafik Halliche"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Djamel Mesbah"
+    },
+    {
+      "number": "7",
+      "position": "DEF",
+      "name": "Carl Medjani"
+    },
+    {
+      "number": "17",
+      "position": "DEF",
+      "name": "Liassine Cadamuro-Bentaïba"
+    },
+    {
+      "number": "20",
+      "position": "DEF",
+      "name": "Aïssa Mandi"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Hassan Yebda"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Sofiane Feghouli"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Yacine Brahimi"
+    },
+    {
+      "number": "12",
+      "position": "MED",
+      "name": "Medhi Lacen"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Nabil Bentaleb"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Abdelmoumene Djabou"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Saphir Taïder"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Riyad Mahrez"
+    },
+    {
+      "number": "22",
+      "position": "MED",
+      "name": "Mehdi Mostefa"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Nabil Ghilas"
+    },
+    {
+      "number": "13",
+      "position": "DEL",
+      "name": "Islam Slimani"
+    },
+    {
+      "number": "15",
+      "position": "DEL",
+      "name": "El Arbi Hillel Soudani"
+    }
+  ],
+  "ec": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Máximo Banguera"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Adrián Bone"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Alexander Domínguez"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Jorge Guagua"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Frickson Erazo"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Juan Carlos Paredes"
+    },
+    {
+      "number": "10",
+      "position": "DEF",
+      "name": "Walter Ayoví"
+    },
+    {
+      "number": "18",
+      "position": "DEF",
+      "name": "Óscar Bagüí"
+    },
+    {
+      "number": "21",
+      "position": "DEF",
+      "name": "Gabriel Achilier"
+    },
+    {
+      "number": "5",
+      "position": "MED",
+      "name": "Renato Ibarra"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Christian Noboa"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Jefferson Montero"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Édison Méndez"
+    },
+    {
+      "number": "9",
+      "position": "MED",
+      "name": "Joao Rojas"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Segundo Castillo"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Michael Arroyo"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Antonio Valencia"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Luis Saritama"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Fidel Martínez"
+    },
+    {
+      "number": "23",
+      "position": "MED",
+      "name": "Carlos Gruezo"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Felipe Caicedo"
+    },
+    {
+      "number": "13",
+      "position": "DEL",
+      "name": "Enner Valencia"
+    },
+    {
+      "number": "17",
+      "position": "DEL",
+      "name": "Jaime Ayoví"
+    }
+  ],
+  "en": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Joe Hart"
+    },
+    {
+      "number": "13",
+      "position": "POR",
+      "name": "Ben Foster"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Fraser Forster"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Glen Johnson"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Leighton Baines"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Gary Cahill"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Phil Jagielka"
+    },
+    {
+      "number": "12",
+      "position": "DEF",
+      "name": "Chris Smalling"
+    },
+    {
+      "number": "16",
+      "position": "DEF",
+      "name": "Phil Jones"
+    },
+    {
+      "number": "23",
+      "position": "DEF",
+      "name": "Luke Shaw"
+    },
+    {
+      "number": "4",
+      "position": "MED",
+      "name": "Steven Gerrard"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Jack Wilshere"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Frank Lampard"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Jordan Henderson"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Alex Oxlade-Chamberlain"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "James Milner"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Raheem Sterling"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Adam Lallana"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Ross Barkley"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Daniel Sturridge"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Wayne Rooney"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Danny Welbeck"
+    },
+    {
+      "number": "18",
+      "position": "DEL",
+      "name": "Rickie Lambert"
+    }
+  ],
+  "es": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Iker Casillas"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "David de Gea"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Pepe Reina"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Raúl Albiol"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Gerard Piqué"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Juanfran"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Sergio Ramos"
+    },
+    {
+      "number": "18",
+      "position": "DEF",
+      "name": "Jordi Alba"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "César Azpilicueta"
+    },
+    {
+      "number": "4",
+      "position": "MED",
+      "name": "Javi Martínez"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Andrés Iniesta"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Xavi"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Cesc Fàbregas"
+    },
+    {
+      "number": "13",
+      "position": "MED",
+      "name": "Juan Mata"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Xabi Alonso"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Sergio Busquets"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Koke"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Santi Cazorla"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "David Silva"
+    },
+    {
+      "number": "7",
+      "position": "DEL",
+      "name": "David Villa"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Fernando Torres"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Pedro"
+    },
+    {
+      "number": "19",
+      "position": "DEL",
+      "name": "Diego Costa"
+    }
+  ],
+  "fr": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Hugo Lloris"
+    },
+    {
+      "number": "16",
+      "position": "POR",
+      "name": "Stéphane Ruffier"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Mickaël Landreau"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Mathieu Debuchy"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Patrice Evra"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Raphaël Varane"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Mamadou Sakho"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Eliaquim Mangala"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Bacary Sagna"
+    },
+    {
+      "number": "17",
+      "position": "DEF",
+      "name": "Lucas Digne"
+    },
+    {
+      "number": "21",
+      "position": "DEF",
+      "name": "Laurent Koscielny"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Yohan Cabaye"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Mathieu Valbuena"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Antoine Griezmann"
+    },
+    {
+      "number": "12",
+      "position": "MED",
+      "name": "Rio Mavuba"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Blaise Matuidi"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Moussa Sissoko"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Paul Pogba"
+    },
+    {
+      "number": "22",
+      "position": "MED",
+      "name": "Morgan Schneiderlin"
+    },
+    {
+      "number": "7",
+      "position": "DEL",
+      "name": "Rémy Cabella"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Olivier Giroud"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Karim Benzema"
+    },
+    {
+      "number": "20",
+      "position": "DEL",
+      "name": "Loïc Rémy"
+    }
+  ],
+  "gh": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Steven Adams"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Adam Kwarasey"
+    },
+    {
+      "number": "16",
+      "position": "POR",
+      "name": "Fatau Dauda"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Samuel Inkoom"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Daniel Opare"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Rashid Sumaila"
+    },
+    {
+      "number": "19",
+      "position": "DEF",
+      "name": "Jonathan Mensah"
+    },
+    {
+      "number": "21",
+      "position": "DEF",
+      "name": "John Boye"
+    },
+    {
+      "number": "23",
+      "position": "DEF",
+      "name": "Harrison Afful"
+    },
+    {
+      "number": "5",
+      "position": "MED",
+      "name": "Michael Essien"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Afriyie Acquah"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Christian Atsu"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Emmanuel Agyemang-Badu"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "André Ayew"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Sulley Muntari"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Albert Adomah"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Mohammed Rabiu"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Kwadwo Asamoah"
+    },
+    {
+      "number": "22",
+      "position": "MED",
+      "name": "Wakaso Mubarak"
+    },
+    {
+      "number": "3",
+      "position": "DEL",
+      "name": "Asamoah Gyan"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Kevin-Prince Boateng"
+    },
+    {
+      "number": "13",
+      "position": "DEL",
+      "name": "Jordan Ayew"
+    },
+    {
+      "number": "18",
+      "position": "DEL",
+      "name": "Majeed Waris"
+    }
+  ],
+  "gr": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Orestis Karnezis"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Panagiotis Glykos"
+    },
+    {
+      "number": "13",
+      "position": "POR",
+      "name": "Stefanos Kapino"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Giannis Maniatis"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Giorgos Tzavellas"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Kostas Manolas"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Vangelis Moras"
+    },
+    {
+      "number": "11",
+      "position": "DEF",
+      "name": "Loukas Vyntra"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Vasilis Torosidis"
+    },
+    {
+      "number": "19",
+      "position": "DEF",
+      "name": "Sokratis Papastathopoulos"
+    },
+    {
+      "number": "20",
+      "position": "DEF",
+      "name": "José Holebas"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Alexandros Tziolis"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Panagiotis Kone"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Giorgos Karagounis"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Lazaros Christodoulopoulos"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Giannis Fetfatzidis"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Kostas Katsouranis"
+    },
+    {
+      "number": "22",
+      "position": "MED",
+      "name": "Andreas Samaris"
+    },
+    {
+      "number": "23",
+      "position": "MED",
+      "name": "Panagiotis Tachtsidis"
+    },
+    {
+      "number": "7",
+      "position": "DEL",
+      "name": "Giorgos Samaras"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Kostas Mitroglou"
+    },
+    {
+      "number": "14",
+      "position": "DEL",
+      "name": "Dimitris Salpingidis"
+    },
+    {
+      "number": "17",
+      "position": "DEL",
+      "name": "Theofanis Gekas"
+    }
+  ],
+  "hn": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Luis López"
+    },
+    {
+      "number": "18",
+      "position": "POR",
+      "name": "Noel Valladares"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Donis Escober"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Osman Chávez"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Maynor Figueroa"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Juan Pablo Montes"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Víctor Bernárdez"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Juan Carlos García"
+    },
+    {
+      "number": "7",
+      "position": "DEF",
+      "name": "Emilio Izaguirre"
+    },
+    {
+      "number": "23",
+      "position": "DEF",
+      "name": "Brayan Beckeles"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Wilson Palacios"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Mario Martínez"
+    },
+    {
+      "number": "12",
+      "position": "MED",
+      "name": "Edder Delgado"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Óscar García"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Roger Espinoza"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Marvin Chávez"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Luis Garrido"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Jorge Claros"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Andy Najar"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Jerry Palacios"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Jerry Bengtson"
+    },
+    {
+      "number": "13",
+      "position": "DEL",
+      "name": "Carlo Costly"
+    },
+    {
+      "number": "16",
+      "position": "DEL",
+      "name": "Rony Martínez"
+    }
+  ],
+  "hr": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Stipe Pletikosa"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Oliver Zelenika"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Danijel Subašić"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Šime Vrsaljko"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Danijel Pranjić"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Vedran Ćorluka"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Dejan Lovren"
+    },
+    {
+      "number": "11",
+      "position": "DEF",
+      "name": "Darijo Srna"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Gordon Schildenfeld"
+    },
+    {
+      "number": "21",
+      "position": "DEF",
+      "name": "Domagoj Vida"
+    },
+    {
+      "number": "4",
+      "position": "MED",
+      "name": "Ivan Perišić"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Ivan Rakitić"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Ognjen Vukojević"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Luka Modrić"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Marcelo Brozović"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Ivan Močinić"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Sammir"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Mateo Kovačić"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Nikica Jelavić"
+    },
+    {
+      "number": "16",
+      "position": "DEL",
+      "name": "Ante Rebić"
+    },
+    {
+      "number": "17",
+      "position": "DEL",
+      "name": "Mario Mandžukić"
+    },
+    {
+      "number": "18",
+      "position": "DEL",
+      "name": "Ivica Olić"
+    },
+    {
+      "number": "22",
+      "position": "DEL",
+      "name": "Eduardo"
+    }
+  ],
+  "ir": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Rahman Ahmadi"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Alireza Haghighi"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Daniel Davari"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Jalal Hosseini"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Amir Hossein Sadeghi"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Hossein Mahini"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Pejman Montazeri"
+    },
+    {
+      "number": "17",
+      "position": "DEF",
+      "name": "Ahmad Alenemeh"
+    },
+    {
+      "number": "19",
+      "position": "DEF",
+      "name": "Hashem Beikzadeh"
+    },
+    {
+      "number": "20",
+      "position": "DEF",
+      "name": "Steven Beitashour"
+    },
+    {
+      "number": "23",
+      "position": "DEF",
+      "name": "Mehrdad Pouladi"
+    },
+    {
+      "number": "2",
+      "position": "MED",
+      "name": "Khosro Heydari"
+    },
+    {
+      "number": "3",
+      "position": "MED",
+      "name": "Ehsan Hajsafi"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Javad Nekounam"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Masoud Shojaei"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Reza Haghighi"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Ghasem Haddadifar"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Andranik Teymourian"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Bakhtiar Rahmani"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Ashkan Dejagah"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Alireza Jahanbakhsh"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Karim Ansarifard"
+    },
+    {
+      "number": "16",
+      "position": "DEL",
+      "name": "Reza Ghoochannejhad"
+    }
+  ],
+  "it": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Gianluigi Buffon"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Salvatore Sirigu"
+    },
+    {
+      "number": "13",
+      "position": "POR",
+      "name": "Mattia Perin"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Mattia De Sciglio"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Giorgio Chiellini"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Matteo Darmian"
+    },
+    {
+      "number": "7",
+      "position": "DEF",
+      "name": "Ignazio Abate"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Andrea Barzagli"
+    },
+    {
+      "number": "19",
+      "position": "DEF",
+      "name": "Leonardo Bonucci"
+    },
+    {
+      "number": "20",
+      "position": "DEF",
+      "name": "Gabriel Paletta"
+    },
+    {
+      "number": "5",
+      "position": "MED",
+      "name": "Thiago Motta"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Antonio Candreva"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Claudio Marchisio"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Alberto Aquilani"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Daniele De Rossi"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Marco Parolo"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Andrea Pirlo"
+    },
+    {
+      "number": "23",
+      "position": "MED",
+      "name": "Marco Verratti"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Mario Balotelli"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Antonio Cassano"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Alessio Cerci"
+    },
+    {
+      "number": "17",
+      "position": "DEL",
+      "name": "Ciro Immobile"
+    },
+    {
+      "number": "22",
+      "position": "DEL",
+      "name": "Lorenzo Insigne"
+    }
+  ],
+  "jp": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Eiji Kawashima"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Shusaku Nishikawa"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Shūichi Gonda"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Atsuto Uchida"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Gōtoku Sakai"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Yuto Nagatomo"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Masato Morishige"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Yasuyuki Konno"
+    },
+    {
+      "number": "19",
+      "position": "DEF",
+      "name": "Masahiko Inoha"
+    },
+    {
+      "number": "21",
+      "position": "DEF",
+      "name": "Hiroki Sakai"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "Maya Yoshida"
+    },
+    {
+      "number": "4",
+      "position": "MED",
+      "name": "Keisuke Honda"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Yasuhito Endō"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Hiroshi Kiyotake"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Shinji Kagawa"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Toshihiro Aoyama"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Hotaru Yamaguchi"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Makoto Hasebe"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Shinji Okazaki"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Yoichiro Kakitani"
+    },
+    {
+      "number": "13",
+      "position": "DEL",
+      "name": "Yoshito Ōkubo"
+    },
+    {
+      "number": "18",
+      "position": "DEL",
+      "name": "Yuya Osako"
+    },
+    {
+      "number": "20",
+      "position": "DEL",
+      "name": "Manabu Saitō"
+    }
+  ],
+  "kr": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Jung Sung-Ryong"
+    },
+    {
+      "number": "21",
+      "position": "POR",
+      "name": "Kim Seung-Gyu"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Lee Bum-Young"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Kim Chang-Soo"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Yun Suk-Young"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Kwak Tae-Hwi"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Kim Young-Gwon"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Hwang Seok-Ho"
+    },
+    {
+      "number": "12",
+      "position": "DEF",
+      "name": "Lee Yong"
+    },
+    {
+      "number": "20",
+      "position": "DEF",
+      "name": "Hong Jeong-Ho"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "Park Joo-Ho"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Kim Bo-Kyung"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Ha Dae-Sung"
+    },
+    {
+      "number": "13",
+      "position": "MED",
+      "name": "Koo Ja-Cheol"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Han Kook-Young"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Park Jong-Woo"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Ki Sung-Yueng"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Lee Chung-Yong"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Son Heung-Min"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Park Chu-Young"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Lee Keun-Ho"
+    },
+    {
+      "number": "18",
+      "position": "DEL",
+      "name": "Kim Shin-Wook"
+    },
+    {
+      "number": "19",
+      "position": "DEL",
+      "name": "Ji Dong-Won"
+    }
+  ],
+  "mx": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "José de Jesús Corona"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Alfredo Talavera"
+    },
+    {
+      "number": "13",
+      "position": "POR",
+      "name": "Guillermo Ochoa"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Francisco Javier Rodríguez"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Carlos Salcido"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Rafael Márquez"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Diego Reyes"
+    },
+    {
+      "number": "7",
+      "position": "DEF",
+      "name": "Miguel Layún"
+    },
+    {
+      "number": "15",
+      "position": "DEF",
+      "name": "Héctor Moreno"
+    },
+    {
+      "number": "16",
+      "position": "DEF",
+      "name": "Miguel Ángel Ponce"
+    },
+    {
+      "number": "18",
+      "position": "DEF",
+      "name": "Andrés Guardado"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "Paul Aguilar"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Héctor Herrera"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Marco Fabián"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Isaác Brizuela"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Javier Aquino"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Carlos Peña"
+    },
+    {
+      "number": "23",
+      "position": "MED",
+      "name": "José Juan Vázquez"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Raúl Jiménez"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Giovani dos Santos"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Alan Pulido"
+    },
+    {
+      "number": "14",
+      "position": "DEL",
+      "name": "Javier Hernández"
+    },
+    {
+      "number": "19",
+      "position": "DEL",
+      "name": "Oribe Peralta"
+    }
+  ],
+  "ng": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Vincent Enyeama"
+    },
+    {
+      "number": "16",
+      "position": "POR",
+      "name": "Austin Ejide"
+    },
+    {
+      "number": "21",
+      "position": "POR",
+      "name": "Chigozie Agbim"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Joseph Yobo"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Uwa Elderson Echiéjilé"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Efe Ambrose"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "Azubuike Egwuekwe"
+    },
+    {
+      "number": "12",
+      "position": "DEF",
+      "name": "Kunle Odunlami"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Juwon Oshaniwa"
+    },
+    {
+      "number": "14",
+      "position": "DEF",
+      "name": "Godfrey Oboabona"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "Kenneth Omeruo"
+    },
+    {
+      "number": "4",
+      "position": "MED",
+      "name": "Reuben Gabriel"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "John Obi Mikel"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Victor Moses"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Ramon Azeez"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Ogenyi Onazi"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Michael Babatunde"
+    },
+    {
+      "number": "7",
+      "position": "DEL",
+      "name": "Ahmed Musa"
+    },
+    {
+      "number": "8",
+      "position": "DEL",
+      "name": "Peter Odemwingie"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Emmanuel Emenike"
+    },
+    {
+      "number": "19",
+      "position": "DEL",
+      "name": "Uche Nwofor"
+    },
+    {
+      "number": "20",
+      "position": "DEL",
+      "name": "Michael Uchebo"
+    },
+    {
+      "number": "23",
+      "position": "DEL",
+      "name": "Shola Ameobi"
+    }
+  ],
+  "nl": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Jasper Cillessen"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Michel Vorm"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Tim Krul"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Ron Vlaar"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Stefan de Vrij"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Bruno Martins Indi"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Daley Blind"
+    },
+    {
+      "number": "7",
+      "position": "DEF",
+      "name": "Daryl Janmaat"
+    },
+    {
+      "number": "12",
+      "position": "DEF",
+      "name": "Paul Verhaegh"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Joël Veltman"
+    },
+    {
+      "number": "14",
+      "position": "DEF",
+      "name": "Terence Kongolo"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Jonathan de Guzmán"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Nigel de Jong"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Wesley Sneijder"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Arjen Robben"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Jordy Clasie"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Leroy Fer"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Georginio Wijnaldum"
+    },
+    {
+      "number": "21",
+      "position": "MED",
+      "name": "Memphis Depay"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Robin van Persie"
+    },
+    {
+      "number": "15",
+      "position": "DEL",
+      "name": "Dirk Kuyt"
+    },
+    {
+      "number": "17",
+      "position": "DEL",
+      "name": "Jeremain Lens"
+    },
+    {
+      "number": "19",
+      "position": "DEL",
+      "name": "Klaas-Jan Huntelaar"
+    }
+  ],
+  "pt": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Eduardo"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Rui Patrício"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Beto"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Bruno Alves"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Pepe"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Fábio Coentrão"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Ricardo Costa"
+    },
+    {
+      "number": "14",
+      "position": "DEF",
+      "name": "Luís Neto"
+    },
+    {
+      "number": "19",
+      "position": "DEF",
+      "name": "André Almeida"
+    },
+    {
+      "number": "21",
+      "position": "DEF",
+      "name": "João Pereira"
+    },
+    {
+      "number": "4",
+      "position": "MED",
+      "name": "Miguel Veloso"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "William Carvalho"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "João Moutinho"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Vieirinha"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Rafa Silva"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Raul Meireles"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Nani"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Silvestre Varela"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Rúben Amorim"
+    },
+    {
+      "number": "7",
+      "position": "DEL",
+      "name": "Cristiano Ronaldo"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Hugo Almeida"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Éder"
+    },
+    {
+      "number": "23",
+      "position": "DEL",
+      "name": "Hélder Postiga"
+    }
+  ],
+  "ru": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Igor Akinfeev"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Yuri Lodygin"
+    },
+    {
+      "number": "16",
+      "position": "POR",
+      "name": "Sergey Ryzhikov"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Aleksei Kozlov"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Georgi Shchennikov"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Sergei Ignashevich"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Andrei Semyonov"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Vladimir Granat"
+    },
+    {
+      "number": "14",
+      "position": "DEF",
+      "name": "Vasili Berezutski"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "Andrey Yeshchenko"
+    },
+    {
+      "number": "23",
+      "position": "DEF",
+      "name": "Dmitri Kombarov"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Igor Denisov"
+    },
+    {
+      "number": "8",
+      "position": "MED",
+      "name": "Denis Glushakov"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Alan Dzagoev"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Roman Shirokov"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Oleg Shatov"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Viktor Fayzulin"
+    },
+    {
+      "number": "6",
+      "position": "DEL",
+      "name": "Maksim Kanunnikov"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Aleksandr Kokorin"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Aleksandr Kerzhakov"
+    },
+    {
+      "number": "18",
+      "position": "DEL",
+      "name": "Yuri Zhirkov"
+    },
+    {
+      "number": "19",
+      "position": "DEL",
+      "name": "Aleksandr Samedov"
+    },
+    {
+      "number": "21",
+      "position": "DEL",
+      "name": "Aleksei Ionov"
+    }
+  ],
+  "us": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Tim Howard"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Brad Guzan"
+    },
+    {
+      "number": "22",
+      "position": "POR",
+      "name": "Nick Rimando"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "DeAndre Yedlin"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Omar Gonzalez"
+    },
+    {
+      "number": "5",
+      "position": "DEF",
+      "name": "Matt Besler"
+    },
+    {
+      "number": "6",
+      "position": "DEF",
+      "name": "John Brooks"
+    },
+    {
+      "number": "7",
+      "position": "DEF",
+      "name": "DaMarcus Beasley"
+    },
+    {
+      "number": "20",
+      "position": "DEF",
+      "name": "Geoff Cameron"
+    },
+    {
+      "number": "21",
+      "position": "DEF",
+      "name": "Timothy Chandler"
+    },
+    {
+      "number": "23",
+      "position": "DEF",
+      "name": "Fabian Johnson"
+    },
+    {
+      "number": "4",
+      "position": "MED",
+      "name": "Michael Bradley"
+    },
+    {
+      "number": "10",
+      "position": "MED",
+      "name": "Mikkel Diskerud"
+    },
+    {
+      "number": "11",
+      "position": "MED",
+      "name": "Alejandro Bedoya"
+    },
+    {
+      "number": "13",
+      "position": "MED",
+      "name": "Jermaine Jones"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Brad Davis"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Kyle Beckerman"
+    },
+    {
+      "number": "16",
+      "position": "MED",
+      "name": "Julian Green"
+    },
+    {
+      "number": "19",
+      "position": "MED",
+      "name": "Graham Zusi"
+    },
+    {
+      "number": "8",
+      "position": "DEL",
+      "name": "Clint Dempsey"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Aron Jóhannsson"
+    },
+    {
+      "number": "17",
+      "position": "DEL",
+      "name": "Jozy Altidore"
+    },
+    {
+      "number": "18",
+      "position": "DEL",
+      "name": "Chris Wondolowski"
+    }
+  ],
+  "uy": [
+    {
+      "number": "1",
+      "position": "POR",
+      "name": "Fernando Muslera"
+    },
+    {
+      "number": "12",
+      "position": "POR",
+      "name": "Rodrigo Muñoz"
+    },
+    {
+      "number": "23",
+      "position": "POR",
+      "name": "Martín Silva"
+    },
+    {
+      "number": "2",
+      "position": "DEF",
+      "name": "Diego Lugano"
+    },
+    {
+      "number": "3",
+      "position": "DEF",
+      "name": "Diego Godín"
+    },
+    {
+      "number": "4",
+      "position": "DEF",
+      "name": "Sebastián Coates"
+    },
+    {
+      "number": "13",
+      "position": "DEF",
+      "name": "Jorge Fucile"
+    },
+    {
+      "number": "16",
+      "position": "DEF",
+      "name": "Maxi Pereira"
+    },
+    {
+      "number": "19",
+      "position": "DEF",
+      "name": "José María Giménez"
+    },
+    {
+      "number": "22",
+      "position": "DEF",
+      "name": "Martín Cáceres"
+    },
+    {
+      "number": "5",
+      "position": "MED",
+      "name": "Walter Gargano"
+    },
+    {
+      "number": "6",
+      "position": "MED",
+      "name": "Álvaro Pereira"
+    },
+    {
+      "number": "7",
+      "position": "MED",
+      "name": "Cristian Rodríguez"
+    },
+    {
+      "number": "14",
+      "position": "MED",
+      "name": "Nicolás Lodeiro"
+    },
+    {
+      "number": "15",
+      "position": "MED",
+      "name": "Diego Pérez"
+    },
+    {
+      "number": "17",
+      "position": "MED",
+      "name": "Egidio Arévalo Ríos"
+    },
+    {
+      "number": "18",
+      "position": "MED",
+      "name": "Gastón Ramírez"
+    },
+    {
+      "number": "20",
+      "position": "MED",
+      "name": "Álvaro González"
+    },
+    {
+      "number": "8",
+      "position": "DEL",
+      "name": "Abel Hernández"
+    },
+    {
+      "number": "9",
+      "position": "DEL",
+      "name": "Luis Suárez"
+    },
+    {
+      "number": "10",
+      "position": "DEL",
+      "name": "Diego Forlán"
+    },
+    {
+      "number": "11",
+      "position": "DEL",
+      "name": "Christian Stuani"
+    },
+    {
+      "number": "21",
+      "position": "DEL",
+      "name": "Edinson Cavani"
+    }
+  ]
+}
