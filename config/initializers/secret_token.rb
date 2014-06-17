@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Brazil2014::Application.config.secret_key_base = '68f5fdc039e0bbef219621791404dbd26bdc864a80a923385def0e9b10e45080bedd2e934e727258c5f640530735305ad8e0b7c8f0deac42a26fd038a00d70cb'
+Brazil2014::Application.config.secret_key_base = ENV['SECRET_KEY_BASE'] || '68f5fdc039e0bbef219621791404dbd26bdc864a80a923385def0e9b10e45080bedd2e934e727258c5f640530735305ad8e0b7c8f0deac42a26fd038a00d70cb'
