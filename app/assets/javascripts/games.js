@@ -12,4 +12,7 @@ $(document).ready(function() {
   $('.fa-minutes').tooltip();
   $('.label-rating').tooltip();
   $('.substitute').tooltip();
+  $(".tr-clickable").click(function() {
+    window.document.location = $(this).attr("href");
+  });
 });

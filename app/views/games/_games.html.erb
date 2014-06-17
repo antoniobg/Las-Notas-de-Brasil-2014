@@ -10,7 +10,8 @@
     </thead>
     <tbody>
       <% games.each do |game| %>
-      <tr class="<%= class_for_game(game) %>">
+      <% clickable = game.performance_records.any? or signed_in_as_admin? %>
+      <tr class="<%= class_for_game(game) %> <%= 'tr-clickable' if clickable %>" <%= "href=\"#{game_path(game)}\"" if clickable %> >
         <td style="width:auto;white-space:nowrap">
           <i class="fa fa-calendar"></i>
           <%= time_for_game(game.date) %>
