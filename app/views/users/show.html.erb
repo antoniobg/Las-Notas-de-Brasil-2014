@@ -12,11 +12,16 @@
   </nav>
   <section class="container text-center" id="rated-games">
     <% @games.each do |game| %>
-      <h3>
-      <%= image_for(game.home_team, :large) %> 
-      &nbsp;<%= link_to game, user_game_path(@user,game) %> 
-      &nbsp;<%= image_for(game.away_team, :large) %>
-      <small><%= time_for_game(game.date) %></small></h3>
+      <div class="rated-game">
+        <h3>
+        <%= image_for(game.home_team, :large) %> 
+        &nbsp;
+        <%= link_to game, user_game_path(@user,game), class: "hidden-xs" %>
+        <%= link_to game.result, user_game_path(@user,game), class: "visible-xs" %>
+        &nbsp;<%= image_for(game.away_team, :large) %>
+        <small><%= time_for_game(game.date) %></small>
+        </h3>
+      </div>
     <% end %>
     <%= will_paginate @games, previous_label: content_tag(:i, '', class: 'fa fa-chevron-left'), next_label: content_tag(:i, '', class: 'fa fa-chevron-right'), renderer: BootstrapPagination::Rails %>
   </section>
