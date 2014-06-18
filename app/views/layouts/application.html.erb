@@ -40,8 +40,8 @@
   <% end %>
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
-  <%= render 'shared/google_analytics' if Rails.env.production? %>   
 </head>
+<%= render 'shared/google_analytics' if Rails.env.production? %>   
 <body>
   <div id="fb-root"></div>
   <header>

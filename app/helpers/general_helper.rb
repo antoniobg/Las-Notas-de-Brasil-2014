@@ -1,6 +1,6 @@
 module GeneralHelper
   def total_games
-    Game.count
+    Game.where(finished: true).count
   end
 
   def total_goals
