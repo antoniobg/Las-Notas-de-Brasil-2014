@@ -15,6 +15,14 @@
   <meta property="og:url" content="http://lasnotasdelmundial.com/" />
   <meta property="og:site_name" content="Las Notas del Mundial" />
   <meta property="og:image" content="<%= image_path('logo-original.png') %>" />
+
+  <%= render 'layouts/favicons' %>
+  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= twitter_bootstrap_stylesheet_link_tag :netdna, force: true, version: "3.1.1" %>
+  <%= stylesheet_link_tag "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", :cache => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= twitter_bootstrap_javascript_include_tag :netdna, force: true, version: "3.1.1"  %>
   <script>
     (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -27,13 +35,6 @@
   <script>
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
   </script>
-  <%= render 'layouts/favicons' %>
-  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= twitter_bootstrap_stylesheet_link_tag :netdna, force: true, version: "3.1.1" %>
-  <%= stylesheet_link_tag "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", :cache => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= twitter_bootstrap_javascript_include_tag :netdna, force: true, version: "3.1.1"  %>
   <% if cookies[:visits] == 0 %>
     <%= render 'shared/launch_modal' %>
   <% end %>
