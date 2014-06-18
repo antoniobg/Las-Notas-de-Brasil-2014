@@ -60,7 +60,11 @@
           <td><%= player.number %></td>
           <td><%= link_to player.position, players_path(position: player.position) %></td>
           <td><%= link_to player, team_player_path(player.team, player) %></td>
-          <td><span class="label label-<%= class_for_rating(player.rating_avg) %>"><%= player.rating_avg %></span></td>
+          <td>
+            <span class="label label-<%= class_for_rating(player.rating_avg) %>">
+              <%= player_rating(player) %>
+            </span>
+          </td>
           <td class="hidden-xs"><%= player.rating_count %></td>
           <td class="hidden-xs"><%= player.games_played %></td>
           <td class="hidden-xs"><%= player.minutes %></td>

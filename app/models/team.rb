@@ -44,7 +44,7 @@ class Team < ActiveRecord::Base
   end
 
   def rating_avg
-    rating_count.zero? ? '-' : (rating_sum.to_f / rating_count).round(2)
+    rating_count.zero? ? 0 : (rating_sum.to_f / rating_count).round(2)
   end
   
   def to_s

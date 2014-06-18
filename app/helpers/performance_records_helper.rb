@@ -27,4 +27,12 @@ module PerformanceRecordsHelper
   def substitution(record)
     "<i class='fa fa-sign-in substitute'  data-toggle='tooltip' data-placement='top' title='Entró en el #{90 - record.minutes}´'></i>".html_safe unless record.starting?
   end
+
+  def record_rating(record)
+    if record.rating_count == 0
+      '-'
+    else
+      record.rating_avg
+    end
+  end
 end

@@ -15,4 +15,12 @@ module PlayersHelper
       'default'
     end
   end
+
+  def player_rating(player)
+    if player.rating_count == 0
+      '-'
+    else
+      player.rating_avg
+    end
+  end
 end

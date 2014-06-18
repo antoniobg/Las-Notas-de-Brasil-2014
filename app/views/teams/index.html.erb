@@ -30,7 +30,7 @@
           <td><%= link_to team, team_path(team) %></td>
           <td>
             <span class="label label-<%= class_for_rating(team.rating_avg) %>">
-              <%= team.rating_avg %>
+              <%= team_rating(team) %>
             </span>
           </td>
           <td><%= team.games_played %></td>

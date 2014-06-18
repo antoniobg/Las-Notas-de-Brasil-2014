@@ -29,7 +29,7 @@
         <td class="hidden-xs"><%= substitution(record) %></td>
         <td class="text-center">
           <span class="label label-rating label-<%= class_for_rating(record.rating_avg) %>" data-toggle="tooltip" data-placement="top" title="Nota Media">
-            <%= record.rating_avg %>
+            <%= record_rating(record) %>
           </span>
         </td>
         <td class="rate-form-cell text-center">
