@@ -26,10 +26,8 @@
       </div>
     </div>
   </section>
-  <% if signed_in? and !(rating = Rating.where(performance_record_id: record.id, user_id: current_user.id).first).nil? %>
   <footer class="text-center">
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="<%= user_game_path(current_user, @game) %>" data-text="Mira mis notas del #<%= @game.home_team %> - #<%= @game.away_team %>" data-via="NotasDelMundial" data-lang="es" data-size="large" data-related="antoniobg87" data-hashtags="WorldCup2014,Brasil2014">Twittear</a>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Mira las notas del #<%= @game.home_team %> - #<%= @game.away_team %>" data-via="NotasDelMundial" data-lang="es" data-size="large" data-related="antoniobg87" data-hashtags="WorldCup2014,Brasil2014">Twittear</a>
   </footer>
-  <% end %>
   <% end %>
 </section>
